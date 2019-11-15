@@ -12,11 +12,10 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-class InstructorTests {
-
+class TopicTests {
 	private static EntityManagerFactory emf;
 	private EntityManager em;
-	private Instructor instructor;
+	private Topic topic;
 	
 	@BeforeAll
 	static void setUpBeforeClass() throws Exception {
@@ -31,13 +30,13 @@ class InstructorTests {
 	@BeforeEach
 	void setUp() throws Exception {
 		em = emf.createEntityManager();
-		instructor = em.find(Instructor.class, 1);
+		topic = em.find(Topic.class, 1);
 	}
 
 	@AfterEach
 	void tearDown() throws Exception {
 		em.close();
-		instructor = null;
+		topic = null;
 	}
 	@Test
 	void test() {

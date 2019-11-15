@@ -12,11 +12,10 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-class InstructorTests {
-
+class TrelloCsvFileTests {
 	private static EntityManagerFactory emf;
 	private EntityManager em;
-	private Instructor instructor;
+	private TrelloCsvFile file;
 	
 	@BeforeAll
 	static void setUpBeforeClass() throws Exception {
@@ -31,14 +30,15 @@ class InstructorTests {
 	@BeforeEach
 	void setUp() throws Exception {
 		em = emf.createEntityManager();
-		instructor = em.find(Instructor.class, 1);
+		file = em.find(TrelloCsvFile.class, 1);
 	}
 
 	@AfterEach
 	void tearDown() throws Exception {
 		em.close();
-		instructor = null;
+		file = null;
 	}
+
 	@Test
 	void test() {
 		fail("Not yet implemented");
