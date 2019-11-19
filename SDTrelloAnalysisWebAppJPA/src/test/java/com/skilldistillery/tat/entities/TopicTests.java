@@ -40,7 +40,13 @@ class TopicTests {
 	}
 	@Test
 	void test() {
-		fail("Not yet implemented");
+		assertEquals(topic.getName(),"topicName");
+		assertEquals(topic.getDescription(),"topicDescription");
+		assertEquals(topic.getDayOfProgram(),"12");
+		assertEquals(topic.getCohort(),"23");
+		assertEquals(topic.getUnit(),"1");
+		assertEquals(topic.getLengthInMin(),60);
+		assertEquals(topic.getInstructors().size(), 1);
 	}
 
 }

@@ -41,7 +41,10 @@ class TrelloCsvFileTests {
 
 	@Test
 	void test() {
-		fail("Not yet implemented");
+		assertEquals(file.getFileName(),"fileName");
+		assertEquals(file.getPathAndFileName(),"pathAndFileName");
+		assertEquals(file.getStartDate().toString(),"2024-12-01 06:12:24.0");
+		assertEquals(file.getEndDate().toString(),"2024-12-31 06:12:24.0");
 	}
 
 }

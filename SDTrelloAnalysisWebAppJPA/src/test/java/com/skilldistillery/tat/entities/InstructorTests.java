@@ -22,7 +22,7 @@ class InstructorTests {
 	static void setUpBeforeClass() throws Exception {
 		emf = Persistence.createEntityManagerFactory("tatpu");
 	}
-
+	
 	@AfterAll
 	static void tearDownAfterClass() throws Exception {
 		emf.close();
@@ -41,7 +41,10 @@ class InstructorTests {
 	}
 	@Test
 	void test() {
-		fail("Not yet implemented");
+		
+		assertEquals(instructor.getName(),"testInstructor");
+		assertEquals(instructor.isActive(), true);
+		assertEquals(instructor.getTopicList().size(), 1);
 	}
 
 }

@@ -16,18 +16,33 @@ CREATE SCHEMA IF NOT EXISTS `tatdb` DEFAULT CHARACTER SET utf8 ;
 USE `tatdb` ;
 
 -- -----------------------------------------------------
+-- Table `instructor`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `instructor` ;
+
+CREATE TABLE IF NOT EXISTS `instructor` (
+  `id` INT(11) NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(45) NULL DEFAULT NULL,
+  `active` VARCHAR(45) NULL DEFAULT NULL,
+  PRIMARY KEY (`id`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8;
+
+
+-- -----------------------------------------------------
 -- Table `trello_csv_file`
 -- -----------------------------------------------------
 DROP TABLE IF EXISTS `trello_csv_file` ;
 
 CREATE TABLE IF NOT EXISTS `trello_csv_file` (
-  `id` INT NOT NULL AUTO_INCREMENT,
-  `file_name` VARCHAR(100) NULL,
-  `path_and_file_name` VARCHAR(100) NULL,
-  `start_date` DATETIME NULL,
-  `end_date` DATETIME NULL,
+  `id` INT(11) NOT NULL AUTO_INCREMENT,
+  `file_name` VARCHAR(100) NULL DEFAULT NULL,
+  `path_and_file_name` VARCHAR(100) NULL DEFAULT NULL,
+  `start_date` DATETIME NULL DEFAULT NULL,
+  `end_date` DATETIME NULL DEFAULT NULL,
   PRIMARY KEY (`id`))
-ENGINE = InnoDB;
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8;
 
 
 -- -----------------------------------------------------
@@ -36,14 +51,14 @@ ENGINE = InnoDB;
 DROP TABLE IF EXISTS `topic` ;
 
 CREATE TABLE IF NOT EXISTS `topic` (
-  `id` INT NOT NULL AUTO_INCREMENT,
+  `id` INT(11) NOT NULL AUTO_INCREMENT,
   `name` VARCHAR(45) NOT NULL,
-  `description` TEXT(10000) NULL,
-  `day_of_program` VARCHAR(45) NULL,
-  `cohort` VARCHAR(45) NULL,
-  `unit` VARCHAR(45) NULL,
-  `length_in_min` INT NULL,
-  `trello_csv_file_id` INT NOT NULL,
+  `description` TEXT NULL DEFAULT NULL,
+  `day_of_program` VARCHAR(45) NULL DEFAULT NULL,
+  `cohort` VARCHAR(45) NULL DEFAULT NULL,
+  `unit` VARCHAR(45) NULL DEFAULT NULL,
+  `length_in_min` INT(11) NULL DEFAULT NULL,
+  `trello_csv_file_id` INT(11) NOT NULL,
   PRIMARY KEY (`id`, `trello_csv_file_id`),
   INDEX `fk_topic_trello_csv_file1_idx` (`trello_csv_file_id` ASC),
   CONSTRAINT `fk_topic_trello_csv_file1`
@@ -51,20 +66,8 @@ CREATE TABLE IF NOT EXISTS `topic` (
     REFERENCES `trello_csv_file` (`id`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
-ENGINE = InnoDB;
-
-
--- -----------------------------------------------------
--- Table `instructor`
--- -----------------------------------------------------
-DROP TABLE IF EXISTS `instructor` ;
-
-CREATE TABLE IF NOT EXISTS `instructor` (
-  `id` INT NOT NULL AUTO_INCREMENT,
-  `name` VARCHAR(45) NULL,
-  `active` VARCHAR(45) NULL,
-  PRIMARY KEY (`id`))
-ENGINE = InnoDB;
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8;
 
 
 -- -----------------------------------------------------
@@ -73,8 +76,8 @@ ENGINE = InnoDB;
 DROP TABLE IF EXISTS `instructor_topic` ;
 
 CREATE TABLE IF NOT EXISTS `instructor_topic` (
-  `instructor_id` INT NOT NULL,
-  `topic_id` INT NOT NULL,
+  `instructor_id` INT(11) NOT NULL,
+  `topic_id` INT(11) NOT NULL,
   PRIMARY KEY (`instructor_id`, `topic_id`),
   INDEX `fk_instructor_has_topic_topic1_idx` (`topic_id` ASC),
   INDEX `fk_instructor_has_topic_instructor1_idx` (`instructor_id` ASC),
@@ -88,7 +91,8 @@ CREATE TABLE IF NOT EXISTS `instructor_topic` (
     REFERENCES `topic` (`id`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
-ENGINE = InnoDB;
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8;
 
 SET SQL_MODE = '';
 DROP USER IF EXISTS sdtatuser@localhost;
@@ -100,3 +104,43 @@ GRANT SELECT, INSERT, TRIGGER, UPDATE, DELETE ON TABLE * TO 'sdtatuser'@'localho
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
+
+-- -----------------------------------------------------
+-- Data for table `instructor`
+-- -----------------------------------------------------
+START TRANSACTION;
+USE `tatdb`;
+INSERT INTO `instructor` (`id`, `name`, `active`) VALUES (1, 'testInstructor', '1');
+
+COMMIT;
+
+
+-- -----------------------------------------------------
+-- Data for table `trello_csv_file`
+-- -----------------------------------------------------
+START TRANSACTION;
+USE `tatdb`;
+INSERT INTO `trello_csv_file` (`id`, `file_name`, `path_and_file_name`, `start_date`, `end_date`) VALUES (1, 'fileName', 'pathAndFileName', '2024-12-1 06:12:24', '2024-12-31 06:12:24');
+
+COMMIT;
+
+
+-- -----------------------------------------------------
+-- Data for table `topic`
+-- -----------------------------------------------------
+START TRANSACTION;
+USE `tatdb`;
+INSERT INTO `topic` (`id`, `name`, `description`, `day_of_program`, `cohort`, `unit`, `length_in_min`, `trello_csv_file_id`) VALUES (1, 'topicName', 'topicDescription', '12', '23', '1', 60, 1);
+
+COMMIT;
+
+
+-- -----------------------------------------------------
+-- Data for table `instructor_topic`
+-- -----------------------------------------------------
+START TRANSACTION;
+USE `tatdb`;
+INSERT INTO `instructor_topic` (`instructor_id`, `topic_id`) VALUES (1, 1);
+
+COMMIT;
+
