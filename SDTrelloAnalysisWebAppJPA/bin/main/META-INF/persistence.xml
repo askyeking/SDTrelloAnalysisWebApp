@@ -14,8 +14,8 @@
 
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/tatdb?useSSL=false&amp;useLegacyDatetimeCode=false&amp;serverTimezone=MST" />
-      <property name="javax.persistence.jdbc.user" value="tatuser"/>
-      <property name="javax.persistence.jdbc.password" value="tatuser" />
+      <property name="javax.persistence.jdbc.user" value="sdtatuser"/>
+      <property name="javax.persistence.jdbc.password" value="sdtatuser" />
       <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver" />
 
       <property name="hibernate.show_sql" value="false" />
