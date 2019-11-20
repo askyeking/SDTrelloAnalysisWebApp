@@ -44,8 +44,6 @@ public class Topic {
 		super();
 	}
 	
-	
-	
 	public TrelloCsvFile getCsvFile() {
 		return csvFile;
 	}
