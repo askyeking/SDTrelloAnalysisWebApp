@@ -1,12 +1,14 @@
 package com.skilldistillery.tat.entities;
 
 import java.util.Date;
+import java.util.List;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 @Entity
@@ -28,6 +30,17 @@ public class TrelloCsvFile {
 	
 	@Column(name = "end_date")
 	private Date endDate;
+	
+	@OneToMany(mappedBy="csvFile")
+	List<Topic> topics;
+
+	public List<Topic> getTopics() {
+		return topics;
+	}
+
+	public void setTopics(List<Topic> topics) {
+		this.topics = topics;
+	}
 
 	public TrelloCsvFile() {
 		super();

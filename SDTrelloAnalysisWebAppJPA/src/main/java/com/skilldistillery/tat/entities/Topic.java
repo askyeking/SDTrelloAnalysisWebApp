@@ -7,7 +7,9 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
 import javax.persistence.ManyToMany;
+import javax.persistence.ManyToOne;
 
 @Entity
 public class Topic {
@@ -32,12 +34,26 @@ public class Topic {
 	
 	@ManyToMany(mappedBy = "topicsList")
 	private List<Instructor> instructors;
+	
+	@ManyToOne
+	@JoinColumn(name="trello_csv_file_id")
+	private TrelloCsvFile csvFile;
 
 	//CTOR
 	public Topic() {
 		super();
 	}
 	
+	
+	
+	public TrelloCsvFile getCsvFile() {
+		return csvFile;
+	}
+
+	public void setCsvFile(TrelloCsvFile csvFile) {
+		this.csvFile = csvFile;
+	}
+
 	// GETTERS N SETTERS
 	public int getId() {
 		return id;

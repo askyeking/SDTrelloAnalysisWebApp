@@ -47,6 +47,7 @@ class TopicTests {
 		assertEquals(topic.getUnit(),"1");
 		assertEquals(topic.getLengthInMin(),60);
 		assertEquals(topic.getInstructors().size(), 1);
+		assertEquals(topic.getCsvFile().getFileName(), "fileName");
 	}
 
 }
