@@ -1,5 +1,6 @@
 package com.skilldistillery.tat.entities;
 
+import java.util.Date;
 import java.util.List;
 
 import javax.persistence.Column;
@@ -37,6 +38,8 @@ public class Topic {
 	@JsonIgnore
 	@ManyToMany(mappedBy = "topicsList")
 	private List<Instructor> instructors;
+	
+	private Date date;
 	
 	@ManyToOne
 	@JoinColumn(name="trello_csv_file_id")

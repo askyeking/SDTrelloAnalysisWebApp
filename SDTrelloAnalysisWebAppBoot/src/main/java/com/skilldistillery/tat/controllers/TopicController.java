@@ -16,14 +16,15 @@ public class TopicController {
 	private TopicService topicSvc;
 
 	/*
+	 * keyword = keyword in topic name
 	 * GET | /api/topics 															| Get all topics 
 	 * GET | /api/topics/{topic.id} 												| Get topic by ID 
 	 * GET | /api/topics/keyword/{keyword} 											| Get all topics by keyword 
-	 * GET |/api/topics/startDate/{startDate}/endDate/{endDate} 					| Get all topics by start/end date 
-	 * GET |/api/topics/keyword/{keyword}/startDate/{startDate}/endDate/{endDate} 	| Get all topics by keyword + date 
+	 * GET | /api/topics/startDate/{startDate}/endDate/{endDate} 					| Get all topics by start/end date 
+	 * GET | /api/topics/keyword/{keyword}/startDate/{startDate}/endDate/{endDate} 	| Get all topics by keyword + date 
 	 * GET | /api/topics/instructor/{instructor} 									| Get all topics by Instructor 
-	 * GET |/api/topics/instructor/{instructor}/startDate/{startDate}/endDate/{endDate} 					| Get all topics by Instructor + Date 
-	 * GET |/api/topics/instructor/{instructor}/keyword/{keyword} 											| Get all topics by Instructor + Keyword 
+	 * GET | /api/topics/instructor/{instructor}/startDate/{startDate}/endDate/{endDate} 					| Get all topics by Instructor + Date 
+	 * GET | /api/topics/instructor/{instructor}/keyword/{keyword} 											| Get all topics by Instructor + Keyword 
 	 * GET | /api/topics/instructor/{instructor}/keyword/{keyword}/startDate/{startDate}/endDate/{endDate} 	| Get topics by Instructor, Keyword, Date
 	 */
 
