@@ -6,4 +6,5 @@ import com.skilldistillery.tat.entities.Topic;
 
 public interface TopicRepository extends JpaRepository<Topic, Integer> {
 
+	Topic findById(int id);
 }
