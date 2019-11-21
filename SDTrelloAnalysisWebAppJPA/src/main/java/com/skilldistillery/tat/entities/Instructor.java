@@ -27,7 +27,6 @@ public class Instructor {
 	@JoinTable(name = "instructor_topic", 
 		joinColumns = @JoinColumn(name = "instructor_id"), 
 		inverseJoinColumns = @JoinColumn(name = "topic_id"))
-	@JsonIgnore
 	private List<Topic> topicsList;
 
 	//CTORS

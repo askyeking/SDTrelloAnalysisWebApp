@@ -11,6 +11,8 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToMany;
 import javax.persistence.ManyToOne;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 @Entity
 public class Topic {
 	// F i e l d s
@@ -32,6 +34,7 @@ public class Topic {
 	@Column(name = "length_in_min")
 	private int lengthInMin;
 	
+	@JsonIgnore
 	@ManyToMany(mappedBy = "topicsList")
 	private List<Instructor> instructors;
 	
