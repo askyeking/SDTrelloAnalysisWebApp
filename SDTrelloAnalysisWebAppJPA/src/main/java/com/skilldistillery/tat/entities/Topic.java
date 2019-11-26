@@ -39,7 +39,8 @@ public class Topic {
 	@ManyToMany(mappedBy = "topicsList")
 	private List<Instructor> instructors;
 	
-	private Date date;
+	@Column(name = "date_lectured")
+	private Date dateLectured;
 	
 	@ManyToOne
 	@JoinColumn(name="trello_csv_file_id")
