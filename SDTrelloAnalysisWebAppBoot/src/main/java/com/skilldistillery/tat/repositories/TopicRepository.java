@@ -43,12 +43,12 @@ public interface TopicRepository extends JpaRepository<Topic, Integer> {
 	public  List<Topic> findByKeywordLikeAndDateBetween(String keyword, Date startDate, Date endDate);
 
 //	* GET | /api/topics/instructor/{instructor} 	| Get all topics by Instructor 
-	public List<Topic> findByTopic_Instructors_Name
+	public List<Topic> findByInstructorId(int instructorId);
 
 //	* GET | /api/topics/instructor/{instructor}/startDate/{startDate}/endDate/{endDate} 	| Get all topics by Instructor + Date 
 
 	
-//	* GET | /api/topics/instructor/{instructor}/keyword/{keyword} 	| Get all topics by Instructor + Keyword //	* GET | /api/topics/instructor/{instructor}/keyword/{keyword}/startDate/{startDate}/endDate/{endDate} 	| Get topics by Instructor, Keyword, Date
+//	* GET | /api/topics/instructor/{instructor}/keyword/{keyword} 	| Get all topics by Instructor + Keyword 
 
 	
 //	* GET | /api/topics/instructor/{instructor}/keyword/{keyword}/startDate/{startDate}/endDate/{endDate} 	| Get topics by Instructor, Keyword, Date
