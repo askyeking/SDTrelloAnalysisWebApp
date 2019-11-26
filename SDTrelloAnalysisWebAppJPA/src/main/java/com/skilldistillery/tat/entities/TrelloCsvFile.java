@@ -11,6 +11,8 @@ import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 @Entity
 @Table(name="trello_csv_file")
 public class TrelloCsvFile {
@@ -31,6 +33,7 @@ public class TrelloCsvFile {
 	@Column(name = "end_date")
 	private Date endDate;
 	
+	@JsonIgnore
 	@OneToMany(mappedBy="csvFile")
 	List<Topic> topics;
 
