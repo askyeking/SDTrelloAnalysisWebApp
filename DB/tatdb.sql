@@ -44,7 +44,7 @@ CREATE TABLE IF NOT EXISTS `topic` (
   `unit` VARCHAR(45) NULL,
   `length_in_min` INT NULL,
   `trello_csv_file_id` INT NOT NULL,
-  `date` DATE NULL,
+  `date_lectured` DATE NULL,
   PRIMARY KEY (`id`, `trello_csv_file_id`),
   INDEX `fk_topic_trello_csv_file1_idx` (`trello_csv_file_id` ASC),
   CONSTRAINT `fk_topic_trello_csv_file1`
@@ -116,7 +116,7 @@ COMMIT;
 -- -----------------------------------------------------
 START TRANSACTION;
 USE `tatdb`;
-INSERT INTO `topic` (`id`, `name`, `description`, `day_of_program`, `cohort`, `unit`, `length_in_min`, `trello_csv_file_id`, `date`) VALUES (1, 'topicName', 'topicDescription', '12', '23', '1', 60, 1, '2019-11-18');
+INSERT INTO `topic` (`id`, `name`, `description`, `day_of_program`, `cohort`, `unit`, `length_in_min`, `trello_csv_file_id`, `date_lectured`) VALUES (1, 'topicName', 'topicDescription', '12', '23', '1', 60, 1, '2019-11-18');
 
 COMMIT;
 
