@@ -53,12 +53,12 @@ public class TopicServiceImpl implements TopicService{
 
 	@Override
 	public List<Topic> findByInstructorName(String instructorName) {
-		return topicRepo.findByInstructorsNameLike(instructorName);
+		return topicRepo.findByInstructors_NameLike(instructorName);
 	}
 
 	@Override
 	public List<Topic> findByInstructorIdAndDate(int instructorId, Date startDate, Date endDate) {
-		return topicRepo.findByInstructorsIdAndDateLecturedBetween(instructorId, startDate, endDate);
+		return topicRepo.findByInstructors_IdAndDateLecturedBetween(instructorId, startDate, endDate);
 	}
 	@Override
 	public List<Topic> findByInstructorNameAndDate(String instructorName, Date startDate, Date endDate) {
@@ -69,7 +69,7 @@ public class TopicServiceImpl implements TopicService{
 	@Override
 	public List<Topic> findByKeywordAndInstructorName(String keywordTopicName, String keywordTopicDesc,
 			String instructorName) {
-		return topicRepo.findByNameLikeAndDescriptionLikeAnd_InstructorsNameLike(keywordTopicName, keywordTopicDesc, instructorName);
+		return topicRepo.findByNameLikeAndDescriptionLikeAndInstructors_NameLike(keywordTopicName, keywordTopicDesc, instructorName);
 	}
 	
 	// Methods with LIKE need to have a wildcard somewhere in the parameters
@@ -83,7 +83,7 @@ public class TopicServiceImpl implements TopicService{
 	@Override
 	public List<Topic> findByKeywordAndInstructorNameAndDate(String keywordTopicName, String keywordTopicDescr,
 			String instructorName, Date startDate, Date endDate) {
-		return topicRepo.findByNameLikeAndDescriptionLikeAndInstructorsNameLikeAndDateLecturedBetween(keywordTopicName, keywordTopicDescr, instructorName, startDate, endDate);
+		return topicRepo.findByNameLikeAndDescriptionLikeAndInstructors_NameLikeAndDateLecturedBetween(keywordTopicName, keywordTopicDescr, instructorName, startDate, endDate);
 	}
 
 	// Methods with LIKE need to have a wildcard somewhere in the parameters
