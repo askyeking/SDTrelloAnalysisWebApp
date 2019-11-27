@@ -123,6 +123,16 @@ public class Topic {
 	public void setInstructors(List<Instructor> instructors) {
 		this.instructors = instructors;
 	}
+	
+	
+
+	public Date getDateLectured() {
+		return dateLectured;
+	}
+
+	public void setDateLectured(Date dateLectured) {
+		this.dateLectured = dateLectured;
+	}
 
 	@Override
 	public String toString() {

@@ -1,5 +1,6 @@
 package com.skilldistillery.tat.services;
 
+import java.util.Date;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,10 +14,7 @@ public class TopicServiceImpl implements TopicService{
 	
 	@Autowired
 	TopicRepository topicRepo;
-	
-	/*
-	 * Get	| /api/topics
-	 */
+
 
 	@Override
 	public List<Topic> findAll() {
@@ -34,16 +32,80 @@ public class TopicServiceImpl implements TopicService{
 	}
 
 	@Override
-	public Topic updateTopic(Topic topicToUpdate) {
-		// TODO Auto-generated method stub
-		return null;
+	public List<Topic> findByKeyword(String keyword) {
+		return topicRepo.findByKeyword(keyword);
 	}
 
 	@Override
-	public Boolean deleteTopic(int id) {
-		// TODO Auto-generated method stub
-		return null;
+	public List<Topic> findByDate(Date startDate, Date endDate) {
+		return topicRepo.findAllByDateBetween(startDate, endDate);
 	}
+	// Methods with LIKE need to have a wildcard somewhere in the parameters
+	@Override
+	public List<Topic> findByKeywordAndDate(String keyword, Date startDate, Date endDate) {
+		return topicRepo.findByKeywordLikeAndDateBetween(keyword, startDate, endDate);
+	}
+
+	@Override
+	public List<Topic> findByInstructorId(int instructorId) {
+		return topicRepo.findByInstructorsId(instructorId);
+	}
+
+	@Override
+	public List<Topic> findByInstructorName(String instructorName) {
+		return topicRepo.findByInstructorsNameLike(instructorName);
+	}
+
+	@Override
+	public List<Topic> findByInstructorIdAndDate(int instructorId, Date startDate, Date endDate) {
+		return topicRepo.findByInstructorsIdAndDateLecturedBetween(instructorId, startDate, endDate);
+	}
+	@Override
+	public List<Topic> findByInstructorNameAndDate(String instructorName, Date startDate, Date endDate) {
+		return topicRepo.findByInstructorsNameLikeAndDateLecturedBetween(instructorName, startDate, endDate);
+	}
+	
+	// Methods with LIKE need to have a wildcard somewhere in the parameters
+	@Override
+	public List<Topic> findByKeywordAndInstructorName(String keywordTopicName, String keywordTopicDesc,
+			String instructorName) {
+		return topicRepo.findByNameLikeAndDescriptionLikeAnd_InstructorsNameLike(keywordTopicName, keywordTopicDesc, instructorName);
+	}
+	
+	// Methods with LIKE need to have a wildcard somewhere in the parameters
+	@Override
+	public List<Topic> findByKeywordAndInstructorId(String keywordTopicName, String keywordTopicDesc,
+			int instructorId) {
+		return topicRepo.findByNameLikeAndDescriptionLikeAndInstructorsId(keywordTopicName, keywordTopicDesc, instructorId);
+	}
+
+	// Methods with LIKE need to have a wildcard somewhere in the parameters
+	@Override
+	public List<Topic> findByKeywordAndInstructorNameAndDate(String keywordTopicName, String keywordTopicDescr,
+			String instructorName, Date startDate, Date endDate) {
+		return topicRepo.findByNameLikeAndDescriptionLikeAndInstructorsNameLikeAndDateLecturedBetween(keywordTopicName, keywordTopicDescr, instructorName, startDate, endDate);
+	}
+
+	// Methods with LIKE need to have a wildcard somewhere in the parameters
+	@Override
+	public List<Topic> findByKeywordAndInstructorIdAndDate(String keywordTopicName, String keywordTopicDescr,
+			int instructorId, Date startDate, Date endDate) {
+		return topicRepo.findByNameLikeAndDescriptionLikeAndInstructorsIdAndDateLecturedBetween(keywordTopicName, keywordTopicDescr, instructorId, startDate, endDate);
+	}
+	
+	
+
+//	@Override
+//	public Topic updateTopic(Topic topicToUpdate) {
+//		// TODO Auto-generated method stub
+//		return null;
+//	}
+//
+//	@Override
+//	public Boolean deleteTopic(int id) {
+//		// TODO Auto-generated method stub
+//		return null;
+//	}
 	
 	
 
