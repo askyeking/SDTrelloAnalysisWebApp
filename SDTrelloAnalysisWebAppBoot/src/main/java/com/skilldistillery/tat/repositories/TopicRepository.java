@@ -54,8 +54,10 @@ public interface TopicRepository extends JpaRepository<Topic, Integer> {
 		JOIN instructor ON instructor_topic.instructor_id = instructor.id  
 		WHERE instructor.name LIKE 'testInstructor' AND topic.date BETWEEN '2019-11-01' AND '2019-12-15';
 	 */
+	//***may need to switch the order of parameters to have instructors last***
 	public List<Topic> findByInstructorsNameLikeAndDateLecturedBetween(String name, Date startDate, Date endDate);
-	public List<Topic> findByInstructorsIdAndDateLecturedBetween(int instructorId, Date startDate, Date endDate);
+	//may need to switch the order of parameters!
+	public List<Topic> findByInstructors_IdAndDateLecturedBetween(int instructorId, Date startDate, Date endDate);
 	
 	
 //	* GET | /api/topics/instructor/{instructor}/keyword/{keyword} 	| Get all topics by Instructor + Keyword 
@@ -63,7 +65,8 @@ public interface TopicRepository extends JpaRepository<Topic, Integer> {
 	public List<Topic> findByNameLikeAndDescriptionLikeAndInstructorsId(String keywordTopicName, String keywordTopicDescr, int instructorId);
 
 	
+	//***May need to switch the order of parameters to have instructor last***
 //	* GET | /api/topics/instructor/{instructor}/keyword/{keyword}/startDate/{startDate}/endDate/{endDate} 	| Get topics by Instructor, Keyword, Date
-	public List<Topic> findByNameLikeAndDescriptionLikeAndInstructorsNameLikeAndDateLecturedBetween(String keywordTopicName, String keywordTopicDescr, String instructorName, Date startDate, Date endDate);
+	public List<Topic> findByNameLikeAndDescriptionLikeAndInstructors_NameLikeAndDateLecturedBetween(String keywordTopicName, String keywordTopicDescr, String instructorName, Date startDate, Date endDate);
 	public List<Topic> findByNameLikeAndDescriptionLikeAndInstructorsIdAndDateLecturedBetween(String keywordTopicName, String keywordTopicDescr, int instructorId, Date startDate, Date endDate);
 }
