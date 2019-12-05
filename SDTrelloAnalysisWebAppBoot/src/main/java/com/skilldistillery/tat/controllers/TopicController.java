@@ -37,31 +37,52 @@ public class TopicController {
 	 * endDate/{endDate} | Get topics by Instructor, Keyword, Date
 	 */
 
+<<<<<<< HEAD
 	// success
+=======
+>>>>>>> d2f391c0ce600a7e5df6f6670209605a764b9e9b
 	@GetMapping("/")
 	public List<Topic> index() {
 		return topicSvc.findAll();
 	}
 
+<<<<<<< HEAD
 	// success
+=======
+>>>>>>> d2f391c0ce600a7e5df6f6670209605a764b9e9b
 	@GetMapping("/{id}")
 	public Topic getTopicById(@PathVariable int id) {
 		return topicSvc.findById(id);
 	}
+<<<<<<< HEAD
 	//success
 	@GetMapping("keyword/{keyword}")
 	public List<Topic> findTopicsByKeyword(String keyword) {
 		return topicSvc.findByKeyword(keyword);
+=======
+
+	@GetMapping("/keyword/{keyword}")
+	public List<Topic> findTopicsByKeyword(@PathVariable String keyword) {
+
+		return null;
+>>>>>>> d2f391c0ce600a7e5df6f6670209605a764b9e9b
 	}
 
 	@GetMapping("/startDate/{startDate}/endDate/{endDate}")
 	public List<Topic> findTopicsInDateRange(@PathVariable Date startDate, @PathVariable Date endDate) {
+<<<<<<< HEAD
 		return topicSvc.findByDate(startDate, endDate);
+=======
+
+		return null;
+
+>>>>>>> d2f391c0ce600a7e5df6f6670209605a764b9e9b
 	}
 
 	@GetMapping("/keyword/{keyword}/startDate/{startDate}/endDate/{endDate}")
 	public List<Topic> findTopicsByKeywordInDateRange(@PathVariable String keyword, @PathVariable Date startDate,
 			@PathVariable Date endDate) {
+<<<<<<< HEAD
 		return topicSvc.findByKeywordAndDate(keyword, startDate, endDate);
 	}
 	
@@ -87,6 +108,35 @@ public class TopicController {
 	public List<Topic> findTopicsByInstructorAndTopicKeywordInDateRange(@PathVariable int instructorId,
 			@PathVariable String keyword, @PathVariable Date startDate, @PathVariable Date endDate) {
 		return topicSvc.findByKeywordAndInstructorIdAndDate(keyword, instructorId, startDate, endDate);
+=======
+
+		return null;
+	}
+
+	@GetMapping("/instructor/{instructor}")
+	public List<Topic> findTopicsByInstructor(@PathVariable Instructor instructor) {
+
+		return null;
+	}
+
+	@GetMapping("instructor/{instructor}/startDate/{startDate}/endDate/{endDate}")
+	public List<Topic> findTopicsByInstructorInDateRange(@PathVariable Instructor instructor,
+			@PathVariable Date startDate, @PathVariable Date endDate) {
+		return null;
+	}
+
+	@GetMapping("instructor/{instructor}/keyword/{keyword}")
+	public List<Topic> findTopicsByInstructorAndTopicKeyword(@PathVariable Instructor instructor,
+			@PathVariable String keyword) {
+
+		return null;
+	}
+
+	@GetMapping("instructor/{instructor}/keyword/{keyword}/startDate/{startDate}/endDate/{endDate}")
+	public List<Topic> findTopicsByInstructorAndTopicKeywordInDateRange(@PathVariable Instructor instructor,
+			@PathVariable String keyword, @PathVariable Date startDate, @PathVariable Date endDate) {
+		return null;
+>>>>>>> d2f391c0ce600a7e5df6f6670209605a764b9e9b
 	}
 
 }
