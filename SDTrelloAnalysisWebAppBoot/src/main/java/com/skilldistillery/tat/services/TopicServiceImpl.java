@@ -44,7 +44,7 @@ public class TopicServiceImpl implements TopicService{
 	@Override
 	public List<Topic> findByKeywordAndDate(String keyword, Date startDate, Date endDate) {
 		keyword = "%" + keyword + "%";
-		return topicRepo.findByKeywordLikeAndDateLecturedBetween(keyword, startDate, endDate);
+		return topicRepo.findByKeywordLikeAndDateLecturedBetween(keyword, keyword, startDate, endDate);
 	}
 
 	@Override
@@ -76,8 +76,8 @@ public class TopicServiceImpl implements TopicService{
 	// Methods with LIKE need to have a wildcard somewhere in the parameters
 	@Override
 	public List<Topic> findByKeywordAndInstructorId(String keyword, int instructorId) {
-//		keyword = "%" + keyword + "%";
-		return topicRepo.findByNameLikeAndDescriptionLikeAndInstructorsId(keyword, keyword, instructorId);
+		keyword = "%" + keyword + "%";
+		return topicRepo.findByNameLikeOrDescriptionLikeAndInstructorsId(keyword, keyword, instructorId);
 	}
 
 	// Methods with LIKE need to have a wildcard somewhere in the parameters

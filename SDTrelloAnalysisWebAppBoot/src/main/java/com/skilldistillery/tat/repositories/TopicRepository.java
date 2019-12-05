@@ -36,20 +36,21 @@ public interface TopicRepository extends JpaRepository<Topic, Integer> {
 	//works
 	//GET | /api/topics/keyword/{keyword} 	| Get all topics by keyword 
 //	@Query("SELECT topic FROM Topic topic WHERE topic.name LIKE :keyword OR topic.description LIKE :keyword")
-	@Query(value="select * from topic where name like \"%:nameKeyword%\" or description like \"%:descKeyword%\"", nativeQuery=true)
-	public  List<Topic> findByKeyword(String nameKeyword, String descKeyword);
+	@Query(value="select * from topic where name like %:nameKeyword% or description like %:descKeyword%", nativeQuery=true)
+	public  List<Topic> findByKeyword(@Param("nameKeyword")String nameKeyword, @Param("descKeyword")String descKeyword);
+	
 	
 	//GET | /api/topics/startDate/{startDate}/endDate/{endDate}		| Get all topics by start/end date 
 	List<Topic> findByDateLecturedBetween(Date startDate, Date endDate);
 	
 //	* GET | /api/topics/keyword/{keyword}/startDate/{startDate}/endDate/{endDate} 	| Get all topics by keyword + date 
-//	@Query("SELECT topic FROM Topic topic WHERE topic.name LIKE %:keyword% OR topic.description LIKE %:keyword% AND topic.dateLectured BETWEEN :startDate AND :endDate ")
 	@Query(value="select * from topic where name like \"%:nameKeyword%\" or description like \"%:descKeyword%\" AND date_lectured BETWEEN \":startDate\" and \":endDate\"", nativeQuery=true)
 	public  List<Topic> findByKeywordLikeAndDateLecturedBetween(@Param("nameKeyword") String nameKeyword, @Param("descKeyword") String descKeyword, @Param("startDate") Date startDate, @Param("startDate") Date endDate);
 	
 //	* GET | /api/topics/instructor/{instructor} 	| Get all topics by Instructor NAME
 	public List<Topic> findByInstructors_NameLike(String instructorName);
 	
+	//works
 //	* GET | /api/topics/instructor/{instructor} 	| Get all topics by Instructor ID
 	public List<Topic> findByInstructorsId(int instructorId);
 
@@ -68,8 +69,7 @@ public interface TopicRepository extends JpaRepository<Topic, Integer> {
 //	* GET | /api/topics/instructor/{instructor}/keyword/{keyword} 	| Get all topics by Instructor + Keyword 
 	public List<Topic> findByNameLikeAndDescriptionLikeAndInstructors_NameLike(String keywordTopicName, String keywordTopicDescr, String instructorName);
 	
-	@Query(value="select * from topic where name like \"%topic%\" or description like \"%topic%\" AND date_lectured BETWEEN \":startDate\" and \":endDate\"", nativeQuery=true)
-	public List<Topic> findByNameLikeAndDescriptionLikeAndInstructorsId(String keywordTopicName, String keywordTopicDescr, int instructorId);
+	public List<Topic> findByNameLikeOrDescriptionLikeAndInstructorsId(String keywordTopicName, String keywordTopicDescr, int instructorId);
 
 	
 	//***May need to switch the order of parameters to have instructor last***

@@ -48,9 +48,10 @@ public class TopicController {
 	public Topic getTopicById(@PathVariable int id) {
 		return topicSvc.findById(id);
 	}
+	
 	//success
 	@GetMapping("keyword/{keyword}")
-	public List<Topic> findTopicsByKeyword(String keyword) {
+	public List<Topic> findTopicsByKeyword(@PathVariable String keyword) {
 		return topicSvc.findByKeyword(keyword);
 	}
 
@@ -76,8 +77,8 @@ public class TopicController {
 			@PathVariable Date endDate) {
 		return topicSvc.findByInstructorIdAndDate(instructorId, startDate, endDate);
 	}
-
-	@GetMapping("instructor/{instructor}/keyword/{keyword}")
+	//success
+	@GetMapping("instructor/{instructorId}/keyword/{keyword}")
 	public List<Topic> findTopicsByInstructorAndTopicKeyword(@PathVariable int instructorId,
 			@PathVariable String keyword) {
 		return topicSvc.findByKeywordAndInstructorId(keyword, instructorId);
