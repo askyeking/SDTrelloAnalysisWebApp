@@ -33,17 +33,18 @@ public class TopicServiceImpl implements TopicService{
 
 	@Override
 	public List<Topic> findByKeyword(String keyword) {
-		return topicRepo.findByKeyword(keyword);
+		return topicRepo.findByKeyword(keyword, keyword);
 	}
 
 	@Override
 	public List<Topic> findByDate(Date startDate, Date endDate) {
-		return topicRepo.findAllByDateBetween(startDate, endDate);
+		return topicRepo.findByDateLecturedBetween(startDate, endDate);
 	}
 	// Methods with LIKE need to have a wildcard somewhere in the parameters
 	@Override
 	public List<Topic> findByKeywordAndDate(String keyword, Date startDate, Date endDate) {
-		return topicRepo.findByKeywordLikeAndDateBetween(keyword, startDate, endDate);
+		keyword = "%" + keyword + "%";
+		return topicRepo.findByKeywordLikeAndDateLecturedBetween(keyword, startDate, endDate);
 	}
 
 	@Override
@@ -67,30 +68,30 @@ public class TopicServiceImpl implements TopicService{
 	
 	// Methods with LIKE need to have a wildcard somewhere in the parameters
 	@Override
-	public List<Topic> findByKeywordAndInstructorName(String keywordTopicName, String keywordTopicDesc,
-			String instructorName) {
-		return topicRepo.findByNameLikeAndDescriptionLikeAndInstructors_NameLike(keywordTopicName, keywordTopicDesc, instructorName);
+	public List<Topic> findByKeywordAndInstructorName(String keyword, String instructorName) {
+		keyword = "%" + keyword + "%";
+		return topicRepo.findByNameLikeAndDescriptionLikeAndInstructors_NameLike(keyword, keyword, instructorName);
 	}
 	
 	// Methods with LIKE need to have a wildcard somewhere in the parameters
 	@Override
-	public List<Topic> findByKeywordAndInstructorId(String keywordTopicName, String keywordTopicDesc,
-			int instructorId) {
-		return topicRepo.findByNameLikeAndDescriptionLikeAndInstructorsId(keywordTopicName, keywordTopicDesc, instructorId);
+	public List<Topic> findByKeywordAndInstructorId(String keyword, int instructorId) {
+		keyword = "%" + keyword + "%";
+		return topicRepo.findByNameLikeAndDescriptionLikeAndInstructorsId(keyword, keyword, instructorId);
 	}
 
 	// Methods with LIKE need to have a wildcard somewhere in the parameters
 	@Override
-	public List<Topic> findByKeywordAndInstructorNameAndDate(String keywordTopicName, String keywordTopicDescr,
-			String instructorName, Date startDate, Date endDate) {
-		return topicRepo.findByNameLikeAndDescriptionLikeAndInstructors_NameLikeAndDateLecturedBetween(keywordTopicName, keywordTopicDescr, instructorName, startDate, endDate);
+	public List<Topic> findByKeywordAndInstructorNameAndDate(String keyword, String instructorName, Date startDate, Date endDate) {
+		keyword = "%" + keyword + "%";
+		return topicRepo.findByNameLikeAndDescriptionLikeAndInstructors_NameLikeAndDateLecturedBetween(keyword, keyword, instructorName, startDate, endDate);
 	}
 
 	// Methods with LIKE need to have a wildcard somewhere in the parameters
 	@Override
-	public List<Topic> findByKeywordAndInstructorIdAndDate(String keywordTopicName, String keywordTopicDescr,
-			int instructorId, Date startDate, Date endDate) {
-		return topicRepo.findByNameLikeAndDescriptionLikeAndInstructorsIdAndDateLecturedBetween(keywordTopicName, keywordTopicDescr, instructorId, startDate, endDate);
+	public List<Topic> findByKeywordAndInstructorIdAndDate(String keyword, int instructorId, Date startDate, Date endDate) {
+		keyword = "%" + keyword + "%";
+		return topicRepo.findByNameLikeAndDescriptionLikeAndInstructorsIdAndDateLecturedBetween(keyword, keyword, instructorId, startDate, endDate);
 	}
 	
 	

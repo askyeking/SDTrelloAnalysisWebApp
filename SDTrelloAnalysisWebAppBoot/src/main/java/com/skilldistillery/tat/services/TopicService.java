@@ -29,10 +29,10 @@ public interface TopicService {
 	List<Topic> findByInstructorName(String instructorName);
 	List<Topic> findByInstructorNameAndDate(String instructorName, Date startDate, Date endDate);
 	List<Topic> findByInstructorIdAndDate(int instructorId, Date startDate, Date endDate);
-	List<Topic>	findByKeywordAndInstructorName(String keywordTopicName, String keywordTopicDesc, String instructorName);
-	List<Topic>	findByKeywordAndInstructorId(String keywordTopicName, String keywordTopicDesc, int instructorId);
-	List<Topic> findByKeywordAndInstructorNameAndDate(String keywordTopicName, String keywordTopicDescr, String instructorName, Date startDate, Date endDate);
-	List<Topic> findByKeywordAndInstructorIdAndDate(String keywordTopicName, String keywordTopicDescr, int instructorId, Date startDate, Date endDate);
+	List<Topic> findByKeywordAndInstructorName(String keyword, String instructorName);
+	List<Topic> findByKeywordAndInstructorId(String keyword, int instructorId);
+	List<Topic> findByKeywordAndInstructorNameAndDate(String keyword, String instructorName, Date startDate, Date endDate);
+	List<Topic> findByKeywordAndInstructorIdAndDate(String keyword, int instructorId, Date startDate, Date endDate);
 	Topic createTopic(Topic topic);
 //	Topic updateTopic(Topic topicToUpdate);
 //	Boolean deleteTopic(int id);
