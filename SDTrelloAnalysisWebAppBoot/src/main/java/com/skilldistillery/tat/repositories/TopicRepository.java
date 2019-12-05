@@ -36,7 +36,7 @@ public interface TopicRepository extends JpaRepository<Topic, Integer> {
 	//works
 	//GET | /api/topics/keyword/{keyword} 	| Get all topics by keyword 
 //	@Query("SELECT topic FROM Topic topic WHERE topic.name LIKE :keyword OR topic.description LIKE :keyword")
-	@Query(value="select * from topic where name like \"%topic%\" or description like \"%topic%\"", nativeQuery=true)
+	@Query(value="select * from topic where name like \"%:nameKeyword%\" or description like \"%:descKeyword%\"", nativeQuery=true)
 	public  List<Topic> findByKeyword(String nameKeyword, String descKeyword);
 	
 	//GET | /api/topics/startDate/{startDate}/endDate/{endDate}		| Get all topics by start/end date 
@@ -44,8 +44,8 @@ public interface TopicRepository extends JpaRepository<Topic, Integer> {
 	
 //	* GET | /api/topics/keyword/{keyword}/startDate/{startDate}/endDate/{endDate} 	| Get all topics by keyword + date 
 //	@Query("SELECT topic FROM Topic topic WHERE topic.name LIKE %:keyword% OR topic.description LIKE %:keyword% AND topic.dateLectured BETWEEN :startDate AND :endDate ")
-	@Query(value="select * from topic where name like \"%topic%\" or description like \"%topic%\" AND date_lectured BETWEEN \":startDate\" and \":endDate\"", nativeQuery=true)
-	public  List<Topic> findByKeywordLikeAndDateLecturedBetween(@Param("keyword") String keyword, @Param("startDate") Date startDate, @Param("startDate") Date endDate);
+	@Query(value="select * from topic where name like \"%:nameKeyword%\" or description like \"%:descKeyword%\" AND date_lectured BETWEEN \":startDate\" and \":endDate\"", nativeQuery=true)
+	public  List<Topic> findByKeywordLikeAndDateLecturedBetween(@Param("nameKeyword") String nameKeyword, @Param("descKeyword") String descKeyword, @Param("startDate") Date startDate, @Param("startDate") Date endDate);
 	
 //	* GET | /api/topics/instructor/{instructor} 	| Get all topics by Instructor NAME
 	public List<Topic> findByInstructors_NameLike(String instructorName);
@@ -67,6 +67,8 @@ public interface TopicRepository extends JpaRepository<Topic, Integer> {
 	
 //	* GET | /api/topics/instructor/{instructor}/keyword/{keyword} 	| Get all topics by Instructor + Keyword 
 	public List<Topic> findByNameLikeAndDescriptionLikeAndInstructors_NameLike(String keywordTopicName, String keywordTopicDescr, String instructorName);
+	
+	@Query(value="select * from topic where name like \"%topic%\" or description like \"%topic%\" AND date_lectured BETWEEN \":startDate\" and \":endDate\"", nativeQuery=true)
 	public List<Topic> findByNameLikeAndDescriptionLikeAndInstructorsId(String keywordTopicName, String keywordTopicDescr, int instructorId);
 
 	

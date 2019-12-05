@@ -76,7 +76,7 @@ public class TopicServiceImpl implements TopicService{
 	// Methods with LIKE need to have a wildcard somewhere in the parameters
 	@Override
 	public List<Topic> findByKeywordAndInstructorId(String keyword, int instructorId) {
-		keyword = "%" + keyword + "%";
+//		keyword = "%" + keyword + "%";
 		return topicRepo.findByNameLikeAndDescriptionLikeAndInstructorsId(keyword, keyword, instructorId);
 	}
 
