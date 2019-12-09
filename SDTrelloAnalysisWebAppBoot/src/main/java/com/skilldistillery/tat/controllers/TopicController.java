@@ -55,14 +55,16 @@ public class TopicController {
 		return topicSvc.findByKeyword(keyword);
 	}
 
+	//success
 	@GetMapping("/startDate/{startDate}/endDate/{endDate}")
-	public List<Topic> findTopicsInDateRange(@PathVariable Date startDate, @PathVariable Date endDate) {
+	public List<Topic> findTopicsInDateRange(@PathVariable String startDate, @PathVariable String endDate) {
 		return topicSvc.findByDate(startDate, endDate);
 	}
 
+	
 	@GetMapping("/keyword/{keyword}/startDate/{startDate}/endDate/{endDate}")
-	public List<Topic> findTopicsByKeywordInDateRange(@PathVariable String keyword, @PathVariable Date startDate,
-			@PathVariable Date endDate) {
+	public List<Topic> findTopicsByKeywordInDateRange(@PathVariable String keyword, @PathVariable String startDate,
+			@PathVariable String endDate) {
 		return topicSvc.findByKeywordAndDate(keyword, startDate, endDate);
 	}
 	
@@ -72,9 +74,10 @@ public class TopicController {
 		return topicSvc.findByInstructorId(instructorId);
 	}
 
+	//success
 	@GetMapping("instructor/{instructorId}/startDate/{startDate}/endDate/{endDate}")
-	public List<Topic> findTopicsByInstructorInDateRange(@PathVariable int instructorId, @PathVariable Date startDate,
-			@PathVariable Date endDate) {
+	public List<Topic> findTopicsByInstructorInDateRange(@PathVariable int instructorId, @PathVariable String startDate,
+			@PathVariable String endDate) {
 		return topicSvc.findByInstructorIdAndDate(instructorId, startDate, endDate);
 	}
 	//success
@@ -84,9 +87,10 @@ public class TopicController {
 		return topicSvc.findByKeywordAndInstructorId(keyword, instructorId);
 	}
 
-	@GetMapping("instructor/{instructor}/keyword/{keyword}/startDate/{startDate}/endDate/{endDate}")
+	//success
+	@GetMapping("instructor/{instructorId}/keyword/{keyword}/startDate/{startDate}/endDate/{endDate}")
 	public List<Topic> findTopicsByInstructorAndTopicKeywordInDateRange(@PathVariable int instructorId,
-			@PathVariable String keyword, @PathVariable Date startDate, @PathVariable Date endDate) {
+			@PathVariable String keyword, @PathVariable String startDate, @PathVariable String endDate) {
 		return topicSvc.findByKeywordAndInstructorIdAndDate(keyword, instructorId, startDate, endDate);
 	}
 

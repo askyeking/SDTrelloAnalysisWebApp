@@ -6,6 +6,7 @@ import java.util.List;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
+import java.time.*;
 
 import com.skilldistillery.tat.entities.Topic;
 
@@ -39,16 +40,15 @@ public interface TopicRepository extends JpaRepository<Topic, Integer> {
 	@Query(value="select * from topic where name like %:nameKeyword% or description like %:descKeyword%", nativeQuery=true)
 	public  List<Topic> findByKeyword(@Param("nameKeyword")String nameKeyword, @Param("descKeyword")String descKeyword);
 	
-	
+	//works
 	//GET | /api/topics/startDate/{startDate}/endDate/{endDate}		| Get all topics by start/end date 
-	List<Topic> findByDateLecturedBetween(Date startDate, Date endDate);
+	List<Topic> findByDateLecturedBetween(LocalDate startDate, LocalDate endDate);
 	
+	//works
 //	* GET | /api/topics/keyword/{keyword}/startDate/{startDate}/endDate/{endDate} 	| Get all topics by keyword + date 
-	@Query(value="select * from topic where name like \"%:nameKeyword%\" or description like \"%:descKeyword%\" AND date_lectured BETWEEN \":startDate\" and \":endDate\"", nativeQuery=true)
-	public  List<Topic> findByKeywordLikeAndDateLecturedBetween(@Param("nameKeyword") String nameKeyword, @Param("descKeyword") String descKeyword, @Param("startDate") Date startDate, @Param("startDate") Date endDate);
-	
+	public List<Topic> findByNameLikeOrDescriptionLikeAndDateLecturedBetween(String keywordTopicName, String keywordTopicDescr, LocalDate startDate, LocalDate endDate);
 //	* GET | /api/topics/instructor/{instructor} 	| Get all topics by Instructor NAME
-	public List<Topic> findByInstructors_NameLike(String instructorName);
+	//public List<Topic> findByInstructors_NameLike(String instructorName);
 	
 	//works
 //	* GET | /api/topics/instructor/{instructor} 	| Get all topics by Instructor ID
@@ -60,20 +60,21 @@ public interface TopicRepository extends JpaRepository<Topic, Integer> {
 		JOIN instructor ON instructor_topic.instructor_id = instructor.id  
 		WHERE instructor.name LIKE 'testInstructor' AND topic.date BETWEEN '2019-11-01' AND '2019-12-15';
 	 */
-	//***may need to switch the order of parameters***
-	public List<Topic> findByInstructorsNameLikeAndDateLecturedBetween(String name, Date startDate, Date endDate);
-	//may need to switch the order of parameters!
-	public List<Topic> findByInstructors_IdAndDateLecturedBetween(int instructorId, Date startDate, Date endDate);
+	//public List<Topic> findByInstructorsNameLikeAndDateLecturedBetween(String name, LocalDate startDate, LocalDate endDate);
+	
+	//works
+	public List<Topic> findByInstructors_IdAndDateLecturedBetween(int instructorId, LocalDate startDate, LocalDate endDate);
 	
 	
 //	* GET | /api/topics/instructor/{instructor}/keyword/{keyword} 	| Get all topics by Instructor + Keyword 
-	public List<Topic> findByNameLikeAndDescriptionLikeAndInstructors_NameLike(String keywordTopicName, String keywordTopicDescr, String instructorName);
+	//public List<Topic> findByNameLikeOrDescriptionLikeAndInstructors_NameLike(String keywordTopicName, String keywordTopicDescr, String instructorName);
 	
+	//works
 	public List<Topic> findByNameLikeOrDescriptionLikeAndInstructorsId(String keywordTopicName, String keywordTopicDescr, int instructorId);
 
-	
-	//***May need to switch the order of parameters to have instructor last***
 //	* GET | /api/topics/instructor/{instructor}/keyword/{keyword}/startDate/{startDate}/endDate/{endDate} 	| Get topics by Instructor, Keyword, Date
-	public List<Topic> findByNameLikeAndDescriptionLikeAndInstructors_NameLikeAndDateLecturedBetween(String keywordTopicName, String keywordTopicDescr, String instructorName, Date startDate, Date endDate);
-	public List<Topic> findByNameLikeAndDescriptionLikeAndInstructorsIdAndDateLecturedBetween(String keywordTopicName, String keywordTopicDescr, int instructorId, Date startDate, Date endDate);
+	//public List<Topic> findByNameLikeAndDescriptionLikeAndInstructors_NameLikeAndDateLecturedBetween(String keywordTopicName, String keywordTopicDescr, String instructorName, LocalDate startDate, LocalDate endDate);
+	
+	//works
+	public List<Topic> findByNameLikeOrDescriptionLikeAndInstructorsIdAndDateLecturedBetween(String keywordTopicName, String keywordTopicDescr, int instructorId, LocalDate startDate, LocalDate endDate);
 }

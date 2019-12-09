@@ -5,6 +5,7 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import java.time.*;
 
 import com.skilldistillery.tat.entities.Topic;
 import com.skilldistillery.tat.repositories.TopicRepository;
@@ -37,14 +38,18 @@ public class TopicServiceImpl implements TopicService{
 	}
 
 	@Override
-	public List<Topic> findByDate(Date startDate, Date endDate) {
-		return topicRepo.findByDateLecturedBetween(startDate, endDate);
+	public List<Topic> findByDate(String startDate, String endDate) {
+		LocalDate startLocalDate = LocalDate.parse(startDate);
+		LocalDate endLocalDate = LocalDate.parse(endDate);
+		return topicRepo.findByDateLecturedBetween(startLocalDate, endLocalDate);
 	}
 	// Methods with LIKE need to have a wildcard somewhere in the parameters
 	@Override
-	public List<Topic> findByKeywordAndDate(String keyword, Date startDate, Date endDate) {
+	public List<Topic> findByKeywordAndDate(String keyword, String startDate, String endDate) {
 		keyword = "%" + keyword + "%";
-		return topicRepo.findByKeywordLikeAndDateLecturedBetween(keyword, keyword, startDate, endDate);
+		LocalDate startLocalDate = LocalDate.parse(startDate);
+		LocalDate endLocalDate = LocalDate.parse(endDate);
+		return topicRepo.findByNameLikeOrDescriptionLikeAndDateLecturedBetween(keyword, keyword, startLocalDate, endLocalDate);
 	}
 
 	@Override
@@ -58,19 +63,23 @@ public class TopicServiceImpl implements TopicService{
 	}
 
 	@Override
-	public List<Topic> findByInstructorIdAndDate(int instructorId, Date startDate, Date endDate) {
-		return topicRepo.findByInstructors_IdAndDateLecturedBetween(instructorId, startDate, endDate);
+	public List<Topic> findByInstructorIdAndDate(int instructorId, String startDate, String endDate) {
+		LocalDate startLocalDate = LocalDate.parse(startDate);
+		LocalDate endLocalDate = LocalDate.parse(endDate);
+		return topicRepo.findByInstructors_IdAndDateLecturedBetween(instructorId, startLocalDate, endLocalDate);
 	}
 	@Override
-	public List<Topic> findByInstructorNameAndDate(String instructorName, Date startDate, Date endDate) {
-		return topicRepo.findByInstructorsNameLikeAndDateLecturedBetween(instructorName, startDate, endDate);
+	public List<Topic> findByInstructorNameAndDate(String instructorName, String startDate, String endDate) {
+		LocalDate startLocalDate = LocalDate.parse(startDate);
+		LocalDate endLocalDate = LocalDate.parse(endDate);
+		return topicRepo.findByInstructorsNameLikeAndDateLecturedBetween(instructorName, startLocalDate, endLocalDate);
 	}
 	
 	// Methods with LIKE need to have a wildcard somewhere in the parameters
 	@Override
 	public List<Topic> findByKeywordAndInstructorName(String keyword, String instructorName) {
 		keyword = "%" + keyword + "%";
-		return topicRepo.findByNameLikeAndDescriptionLikeAndInstructors_NameLike(keyword, keyword, instructorName);
+		return topicRepo.findByNameLikeOrDescriptionLikeAndInstructors_NameLike(keyword, keyword, instructorName);
 	}
 	
 	// Methods with LIKE need to have a wildcard somewhere in the parameters
@@ -82,16 +91,20 @@ public class TopicServiceImpl implements TopicService{
 
 	// Methods with LIKE need to have a wildcard somewhere in the parameters
 	@Override
-	public List<Topic> findByKeywordAndInstructorNameAndDate(String keyword, String instructorName, Date startDate, Date endDate) {
+	public List<Topic> findByKeywordAndInstructorNameAndDate(String keyword, String instructorName, String startDate, String endDate) {
 		keyword = "%" + keyword + "%";
-		return topicRepo.findByNameLikeAndDescriptionLikeAndInstructors_NameLikeAndDateLecturedBetween(keyword, keyword, instructorName, startDate, endDate);
+		LocalDate startLocalDate = LocalDate.parse(startDate);
+		LocalDate endLocalDate = LocalDate.parse(endDate);
+		return topicRepo.findByNameLikeAndDescriptionLikeAndInstructors_NameLikeAndDateLecturedBetween(keyword, keyword, instructorName, startLocalDate, endLocalDate);
 	}
 
 	// Methods with LIKE need to have a wildcard somewhere in the parameters
 	@Override
-	public List<Topic> findByKeywordAndInstructorIdAndDate(String keyword, int instructorId, Date startDate, Date endDate) {
+	public List<Topic> findByKeywordAndInstructorIdAndDate(String keyword, int instructorId, String startDate, String endDate) {
 		keyword = "%" + keyword + "%";
-		return topicRepo.findByNameLikeAndDescriptionLikeAndInstructorsIdAndDateLecturedBetween(keyword, keyword, instructorId, startDate, endDate);
+		LocalDate startLocalDate = LocalDate.parse(startDate);
+		LocalDate endLocalDate = LocalDate.parse(endDate);
+		return topicRepo.findByNameLikeOrDescriptionLikeAndInstructorsIdAndDateLecturedBetween(keyword, keyword, instructorId, startLocalDate, endLocalDate);
 	}
 	
 	

@@ -11,6 +11,7 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToMany;
 import javax.persistence.ManyToOne;
+import java.time.*;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
@@ -40,7 +41,9 @@ public class Topic {
 	private List<Instructor> instructors;
 	
 	@Column(name = "date_lectured")
-	private Date dateLectured;
+//	private Date dateLectured;
+	private LocalDate dateLectured;
+	
 	
 	@ManyToOne
 	@JoinColumn(name="trello_csv_file_id")
@@ -126,11 +129,11 @@ public class Topic {
 	
 	
 
-	public Date getDateLectured() {
+	public LocalDate getDateLectured() {
 		return dateLectured;
 	}
 
-	public void setDateLectured(Date dateLectured) {
+	public void setDateLectured(LocalDate dateLectured) {
 		this.dateLectured = dateLectured;
 	}
 
