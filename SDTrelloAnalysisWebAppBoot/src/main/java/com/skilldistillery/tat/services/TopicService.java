@@ -26,12 +26,12 @@ public interface TopicService {
 	List<Topic> findByKeywordAndDate (String keyword, String startDate, String endDate);
 	List<Topic> findByInstructorId(int instructorId);
 	//we'll use the id one, but just in case we need to find by name as well
-	List<Topic> findByInstructorName(String instructorName);
-	List<Topic> findByInstructorNameAndDate(String instructorName, String startDate, String endDate);
+//	List<Topic> findByInstructorName(String instructorName);
+//	List<Topic> findByInstructorNameAndDate(String instructorName, String startDate, String endDate);
 	List<Topic> findByInstructorIdAndDate(int instructorId, String startDate, String endDate);
-	List<Topic> findByKeywordAndInstructorName(String keyword, String instructorName);
+//	List<Topic> findByKeywordAndInstructorName(String keyword, String instructorName);
 	List<Topic> findByKeywordAndInstructorId(String keyword, int instructorId);
-	List<Topic> findByKeywordAndInstructorNameAndDate(String keyword, String instructorName, String startDate, String endDate);
+//	List<Topic> findByKeywordAndInstructorNameAndDate(String keyword, String instructorName, String startDate, String endDate);
 	List<Topic> findByKeywordAndInstructorIdAndDate(String keyword, int instructorId, String startDate, String endDate);
 	Topic createTopic(Topic topic);
 //	Topic updateTopic(Topic topicToUpdate);
