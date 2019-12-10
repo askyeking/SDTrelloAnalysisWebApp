@@ -5,6 +5,7 @@ import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.query.Param;
 
 import com.skilldistillery.tat.entities.Topic;
 
@@ -24,23 +25,27 @@ public interface TopicRepository extends JpaRepository<Topic, Integer> {
 	 * GET | /api/topics/instructor/{instructor}/keyword/{keyword}/startDate/{startDate}/endDate/{endDate} 	| Get topics by Instructor, Keyword, Date
 	 */
 	
+	// works
 	//GET | /api/topics 			| Get all topics 
 	List<Topic> findAll();
 	
+	//works
 	//GET | /api/topics/{topic.id} 	| Get topic by ID 
 	Topic findById(int id);
 	
-	
+	//works
 	//GET | /api/topics/keyword/{keyword} 	| Get all topics by keyword 
-	@Query("SELECT topic FROM Topic topic WHERE topic.name LIKE %:keyword% OR topic.description LIKE %:keyword%")
-	public  List<Topic> findByKeyword(String keyword);
+//	@Query("SELECT topic FROM Topic topic WHERE topic.name LIKE :keyword OR topic.description LIKE :keyword")
+	@Query(value="select * from topic where name like \"%topic%\" or description like \"%topic%\"", nativeQuery=true)
+	public  List<Topic> findByKeyword(String nameKeyword, String descKeyword);
 	
 	//GET | /api/topics/startDate/{startDate}/endDate/{endDate}		| Get all topics by start/end date 
-	List<Topic> findAllByDateBetween(Date startDate, Date endDate);
+	List<Topic> findByDateLecturedBetween(Date startDate, Date endDate);
 	
 //	* GET | /api/topics/keyword/{keyword}/startDate/{startDate}/endDate/{endDate} 	| Get all topics by keyword + date 
-	@Query("SELECT topic FROM Topic topic WHERE topic.name LIKE %:keyword% OR topic.description LIKE %:keyword% AND topic.date BETWEEN :startDate AND :endDate ")
-	public  List<Topic> findByKeywordLikeAndDateBetween(String keyword, Date startDate, Date endDate);
+//	@Query("SELECT topic FROM Topic topic WHERE topic.name LIKE %:keyword% OR topic.description LIKE %:keyword% AND topic.dateLectured BETWEEN :startDate AND :endDate ")
+	@Query(value="select * from topic where name like \"%topic%\" or description like \"%topic%\" AND date_lectured BETWEEN \":startDate\" and \":endDate\"", nativeQuery=true)
+	public  List<Topic> findByKeywordLikeAndDateLecturedBetween(@Param("keyword") String keyword, @Param("startDate") Date startDate, @Param("startDate") Date endDate);
 	
 //	* GET | /api/topics/instructor/{instructor} 	| Get all topics by Instructor NAME
 	public List<Topic> findByInstructors_NameLike(String instructorName);
@@ -54,7 +59,7 @@ public interface TopicRepository extends JpaRepository<Topic, Integer> {
 		JOIN instructor ON instructor_topic.instructor_id = instructor.id  
 		WHERE instructor.name LIKE 'testInstructor' AND topic.date BETWEEN '2019-11-01' AND '2019-12-15';
 	 */
-	//***may need to switch the order of parameters to have instructors last***
+	//***may need to switch the order of parameters***
 	public List<Topic> findByInstructorsNameLikeAndDateLecturedBetween(String name, Date startDate, Date endDate);
 	//may need to switch the order of parameters!
 	public List<Topic> findByInstructors_IdAndDateLecturedBetween(int instructorId, Date startDate, Date endDate);
