@@ -34,7 +34,7 @@ public class Topic {
 	private String unit;
 	
 	@Column(name = "length_in_min")
-	private int lengthInMin;
+	private Integer lengthInMin;
 	
 	@JsonIgnore
 	@ManyToMany(mappedBy = "topicsList")
@@ -43,7 +43,6 @@ public class Topic {
 	@Column(name = "date_lectured")
 //	private Date dateLectured;
 	private LocalDate dateLectured;
-	
 	
 	@ManyToOne
 	@JoinColumn(name="trello_csv_file_id")
@@ -54,6 +53,16 @@ public class Topic {
 		super();
 	}
 	
+	
+	public Topic(String name, List<Instructor> instructors, LocalDate dateLectured, TrelloCsvFile csvFile) {
+		super();
+		this.name = name;
+		this.instructors = instructors;
+		this.dateLectured = dateLectured;
+		this.csvFile = csvFile;
+	}
+
+
 	public TrelloCsvFile getCsvFile() {
 		return csvFile;
 	}
