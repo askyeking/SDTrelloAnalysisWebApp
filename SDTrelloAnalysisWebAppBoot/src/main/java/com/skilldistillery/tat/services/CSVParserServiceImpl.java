@@ -49,8 +49,8 @@ public class CSVParserServiceImpl implements CSVParserService {
 				List<String> instructorList = Arrays.asList(instructorArray);
 				LocalDate dateLectured  = parseDateString(csvRecord.get("List Name"));
 				
-
-				Topic topic = new Topic(instructorList, dateLectured, topicName);
+				
+				Topic topic = new Topic(instructorList, dateLectured, topicName, csvFile);
 				parsedTopics.add(topic);
 //				System.out.println(topic);
 //				System.out.println("Record No - " + csvRecord.getRecordNumber());
