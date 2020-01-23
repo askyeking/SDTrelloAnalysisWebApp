@@ -34,6 +34,11 @@ public class Instructor {
 		super();
 	}
 
+	public Instructor(String name) {
+		super();
+		this.name = name;
+	}
+
 	public Instructor(String name, boolean active) {
 		super();
 		this.name = name;
