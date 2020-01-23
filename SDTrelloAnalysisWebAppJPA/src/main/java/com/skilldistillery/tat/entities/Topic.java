@@ -53,7 +53,6 @@ public class Topic {
 		super();
 	}
 	
-	
 	public Topic(String name, List<Instructor> instructors, LocalDate dateLectured, TrelloCsvFile csvFile) {
 		super();
 		this.name = name;
@@ -61,17 +60,16 @@ public class Topic {
 		this.dateLectured = dateLectured;
 		this.csvFile = csvFile;
 	}
-
-
+	
+	// GETTERS N SETTERS
 	public TrelloCsvFile getCsvFile() {
 		return csvFile;
 	}
-
+	
 	public void setCsvFile(TrelloCsvFile csvFile) {
 		this.csvFile = csvFile;
 	}
-
-	// GETTERS N SETTERS
+	
 	public int getId() {
 		return id;
 	}
