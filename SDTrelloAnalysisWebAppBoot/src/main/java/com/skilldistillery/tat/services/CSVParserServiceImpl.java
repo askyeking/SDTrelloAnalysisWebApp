@@ -8,18 +8,25 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVParser;
 import org.apache.commons.csv.CSVRecord;
 
-import com.fasterxml.jackson.datatype.jsr310.deser.LocalDateDeserializer;
 import com.skilldistillery.tat.entities.Instructor;
-import com.skilldistillery.tat.entities.Month;
 import com.skilldistillery.tat.entities.Topic;
 import com.skilldistillery.tat.entities.TrelloCsvFile;
 
+
 public class CSVParserServiceImpl implements CSVParserService {
+	
+	
+	public static void main(String[] args) {
+		CSVParserServiceImpl csvService = new CSVParserServiceImpl();
+		csvService.parseDateString("Day 1 - Wed 11/6");
+	}
 
 	public TrelloCsvFile createTrelloCSVFile(String fileName) {
 		TrelloCsvFile csv = new TrelloCsvFile();
@@ -77,15 +84,15 @@ public class CSVParserServiceImpl implements CSVParserService {
 	}
 
 	public LocalDate parseDateString(String dateToParse) {
-		// EXAMPLE DATA FROM CSV: "Day 1 - Wed June 27"
+		// EXAMPLE DATA FROM CSV: "Day 1 - Wed 11/6"
 		// TALK TO ROB ABOUT START/END DATE CARD
-		List<Month> monthEnums = Arrays.asList(Month.values());
-		for (Month month : monthEnums) {
-			if(dateToParse.contains(month.toString())) {
-				String parsedDateString = dateToParse.substring(dateToParse.indexOf(month.toString()));
-			}
+		Pattern datePattern = Pattern.compile("\\d{1,2}\\/\\d{1,2}");
+		Matcher matcher = datePattern.matcher(dateToParse);
+		if(matcher.find()) {
+			System.out.println(matcher.group());
 		}
-			
+		
+		
 		return null;
 	}
 
