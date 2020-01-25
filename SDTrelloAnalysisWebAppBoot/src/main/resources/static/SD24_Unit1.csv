@@ -1,0 +1,402 @@
+Card ID,Card Name,Card URL,Card Description,Labels,Members,Due Date,Attachment Count,Attachment Links,Checklist Item Total Count,Checklist Item Completed Count,Vote Count,Comment Count,Last Activity Date,List ID,List Name,Board ID,Board Name,Archived
+5e1798bedf0523248ea405b9,Topic Name (00),https://trello.com/c/tPe48p0u/209-topic-name-00,"This is a format card for guidance.
+(00) refers to the length of lecture in minutes.
+
+
+
+
+
+Label Definitions and When To Use Them:
+{Grade:
+ GRADING: } --> do we need both of these?
+In Class:
+Weekend Homework:  Project for the weekend
+???:
+Afternoon:
+{Pair:
+ Pair Study:
+ Paired: } --> do we need all three of these?
+Self-Study:
+Staff:  All staff must be present?
+:JFoP:
+NEW:  New topic?
+Optional:  Optional topic to teach
+SKIP:  Definitely skip
+SKIP?:  Maybe skip
+UNASSIGNED:  Topic with no assigned instructor
+
+","Anthony (pink), Emily (yellow)",,,0,,0,0,0,0,2020-01-14T17:46:31.569Z,5e17989382df90793320780f,Day X - Tue 11/5,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5e179f5afacd655584970e8c,Unit Dates: 11/6/2019 - 12/19/2019,https://trello.com/c/HFVhNHEl/213-unit-dates-11-6-2019-12-19-2019,Unit date range card for analysis tool.,,,,0,,0,0,0,0,2020-01-21T20:37:38.253Z,5e17989382df90793320780f,Day X - Tue 11/5,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5e274984a3d18580bce30e2d,"COURSE: JFoP: Paul, Alex, Rob, Emily",https://trello.com/c/pHnxJrG1/214-course-jfop-paul-alex-rob-emily,,,,,0,,0,0,0,0,2020-01-21T18:57:08.973Z,5da7231a79a2d285ded2f896,Day 1 - Wed 11/6,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f8d7,Welcome - Setup (0:50),https://trello.com/c/qpZ8B9R0/1-welcome-setup-050,,"In Class (blue), Rob (green)",,,0,,0,0,0,0,2019-10-28T16:10:35.362Z,5da7231a79a2d285ded2f896,Day 1 - Wed 11/6,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f8db,Course Intro / Paperwork (0:60),https://trello.com/c/vpsrnCVG/3-course-intro-paperwork-060,"Unit 1 (6 Weeks)
+  * Java Syntax
+    - Eclipse, Atom
+    - Object Oriented
+    - Agile, Pair Programming
+    - File IO
+    - Collections
+    - Regex
+    - Exceptions
+    - Date Time
+    - Lambda
+    - TDD, JUnit
+    - XML, Maven
+    - GIT
+    - Linux
+    - Slack
+  * OCP
+Unit 2 (5 Weeks)
+  * Java -> Database
+  * Java -> HTML
+    - Full Stack
+    - Spring Tool Suite
+    - MVC, Spring MVC
+    - HTML, CSS
+    - Bootstrap
+    - Gradle
+    - Java Web, Servlets, JSP, EL
+    - JDBC, JPQL, JPA ORM, Hibernate
+    - SQL, MySql
+    - Spring Data JPA
+    - Apache Tomcat
+    - AWS
+  * Midterm Project
+Unit 3 (5 Weeks)
+  * Java -> REST, JSON
+  * JavaScript
+  * Angular
+    - Spring Tool Suite, VS Code
+    - Spring Boot
+    - Spring Data JPA
+    - RESTful API
+    - HTTP
+    - JavaScript
+    - TypeScript
+    - DOM
+    - 3rd Party Libraries
+    - XHR, JSON, AJAX
+    - Job Search, Interview Prep
+  * Final Project","In Class (blue), Paul (red), Rob (green)",,,0,,0,0,0,0,2019-10-16T14:03:15.156Z,5da7231a79a2d285ded2f896,Day 1 - Wed 11/6,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f8d9,Simple Programs (1:00),https://trello.com/c/Dyev2RSm/2-simple-programs-100,,Rob (green),,,0,,0,0,0,0,2019-10-28T16:10:41.834Z,5da7231a79a2d285ded2f896,Day 1 - Wed 11/6,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f8dd,VariablesAndConstants (1:00),https://trello.com/c/p9utIXo8/4-variablesandconstants-100,,Rob (green),,,0,,0,0,0,0,2019-10-28T16:10:46.739Z,5da7231a79a2d285ded2f896,Day 1 - Wed 11/6,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f8df,IntroToMethods (0:45),https://trello.com/c/R04I2p97/5-introtomethods-045,,Rob (green),,,0,,0,0,0,0,2019-10-28T16:10:51.569Z,5da7231a79a2d285ded2f896,Day 1 - Wed 11/6,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f8e1,ScreenOutput (1:30),https://trello.com/c/RDtnAIIL/6-screenoutput-130,,Rob (green),,,0,,0,0,0,0,2019-10-28T16:10:55.963Z,5da7231a79a2d285ded2f896,Day 1 - Wed 11/6,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f9dd,Eclipse I (0:45),https://trello.com/c/9bvlMDfD/132-eclipse-i-045,,Rob (green),,,0,,0,0,0,0,2019-10-28T16:11:03.031Z,5da7231a79a2d285ded2f896,Day 1 - Wed 11/6,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2fa19,Grade Prework,https://trello.com/c/DiuGBr5i/162-grade-prework,,"Grade (blue), Paul (red)",,,0,,0,0,0,0,2019-11-07T15:29:56.895Z,5da7231a79a2d285ded2f897,Day 2 - Thu 11/7,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f985,"Catalog Review, Conduct Agreement (0:50)",https://trello.com/c/OgDksIhB/88-catalog-review-conduct-agreement-050,,In Class (blue),,,0,,0,0,0,0,2019-10-16T14:03:11.870Z,5da7231a79a2d285ded2f897,Day 2 - Thu 11/7,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f8e3,Eclipse II (1:30),https://trello.com/c/jZ5iVsIs/7-eclipse-ii-130,,Paul (red),,,0,,0,0,0,0,2019-10-16T14:03:15.033Z,5da7231a79a2d285ded2f897,Day 2 - Thu 11/7,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f8e5,"Expressions (Lec 1:30, Lab 0:50)",https://trello.com/c/q9LF962X/8-expressions-lec-130-lab-050,,Jeremy (purple),,,0,,0,0,0,0,2019-11-05T15:59:13.702Z,5da7231a79a2d285ded2f897,Day 2 - Thu 11/7,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f8e7,IfElse (1:30 + Lab),https://trello.com/c/RcEDxU0t/9-ifelse-130-lab,,Paul (red),,,0,,0,0,0,0,2019-10-16T14:03:14.953Z,5da7231a79a2d285ded2f897,Day 2 - Thu 11/7,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f9f9,Pair Programming (0:40?),https://trello.com/c/MuPzE7YW/146-pair-programming-040,,"In Class (blue), Paul (red), Rob (green)",,,0,,0,0,0,0,2019-11-07T20:38:42.286Z,5da7231a79a2d285ded2f897,Day 2 - Thu 11/7,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f9df,Simple Calculator,https://trello.com/c/gJHEkU5Y/133-simple-calculator,,"Afternoon (lime), Pair (lime)",,,0,,0,0,0,0,2019-10-16T14:03:09.624Z,5da7231a79a2d285ded2f897,Day 2 - Thu 11/7,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f8ef,MadLibs1 (0:45),https://trello.com/c/2v4KhPjS/13-madlibs1-045,"Ask for three nouns, three verbs, three adjectives. Have them output in a String with concatenation.","Afternoon (lime), Pair (lime)",,,0,,0,0,0,0,2019-10-16T14:03:14.845Z,5da7231a79a2d285ded2f897,Day 2 - Thu 11/7,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f8f3,"More Expressions (Lec 1:20, Lab: 1:05)",https://trello.com/c/qalTUXg9/15-more-expressions-lec-120-lab-105,"'+=
+-=
+*=
+/=
+%=
+++ (post-increment vs pre-increment)
+-- (post-decrement vs pre-decrement)
+Ternary",Paul (red),,,0,,0,0,0,0,2019-10-16T14:03:14.792Z,5da7231a79a2d285ded2f898,Day 3 - Fri 11/8,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f9d3,"Switch (Lec 0:40, Lab 0:55)",https://trello.com/c/LOQHuQ5M/127-switch-lec-040-lab-055,,Paul (red),,,0,,0,0,0,0,2019-10-16T14:03:09.914Z,5da7231a79a2d285ded2f898,Day 3 - Fri 11/8,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f8e9,WhileLoops (1:00),https://trello.com/c/ofs8RpO2/10-whileloops-100,,Jeremy (purple),,,0,,0,0,0,0,2019-10-16T14:03:14.928Z,5da7231a79a2d285ded2f898,Day 3 - Fri 11/8,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f9b5,"WhileLoops Labs, review (0:45)",https://trello.com/c/IeTgaqVE/112-whileloops-labs-review-045,Live code of labs?,Jeremy (purple),,,0,,0,0,0,0,2019-10-16T14:03:10.849Z,5da7231a79a2d285ded2f898,Day 3 - Fri 11/8,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f8ed,"Hi/Lo (1:30 est, 1:45)",https://trello.com/c/zc4Md2B5/12-hi-lo-130-est-145,,"Afternoon (lime), Pair (lime)",,,0,,0,0,0,0,2019-10-16T14:03:14.869Z,5da7231a79a2d285ded2f898,Day 3 - Fri 11/8,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f9e1,Menu Project: Remote Control,https://trello.com/c/A2hZ6pxh/134-menu-project-remote-control,"* Talk about assignments, progress requirements, two 0s == probation (don't mention 70%), partial credit, ignored assignments.
+
+* Talk about sticking with covered material.","Rob (green), Weekend Homework (blue)",,,0,,0,0,0,0,2019-11-08T17:36:38.370Z,5da7231a79a2d285ded2f898,Day 3 - Fri 11/8,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5dc31a3c5223f06d03f0b895,Grade Remote Control Homework,https://trello.com/c/pcR5uzqo/198-grade-remote-control-homework,,"Grade (blue), Paul (red), Rob (green)",,,0,,0,0,0,0,2019-11-11T21:24:44.358Z,5da7231a79a2d285ded2f899,Day 4 - Mon 11/11,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f9ff,Review of Wed. Topics (1:20),https://trello.com/c/l0V2Id7K/149-review-of-wed-topics-120,,"Rob (green), SKIP (black)",,,0,,0,0,0,0,2019-10-16T14:03:08.998Z,5da7231a79a2d285ded2f899,Day 4 - Mon 11/11,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f9c9,Pair Quiz Review (1:00),https://trello.com/c/NDOEWonu/122-pair-quiz-review-100,"Tell students there is a pop quiz, but they have to come up with the questions. Example
+
+int x = 0;
+if(x = 0){
+  System.out.println(""Output"");
+}
+What is the output of this program?
+a. ""Output""
+b. nothing
+c. Does not compile (answer because of x = 0 instead of x ==0)
+
+Give examples of questions. ""If the Driver does not know what to type, the Navigator can take over. T or F""
+
+Give 15 mins for pairs to come up with two questions. Have them write questions on the board.","In Class (blue), Rob (green)",,,0,,0,0,0,0,2019-10-16T14:03:10.158Z,5da7231a79a2d285ded2f899,Day 4 - Mon 11/11,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f8f5,"ForLoops (1:30 est, 1:55)",https://trello.com/c/rW4c0Tc5/16-forloops-130-est-155,We should pair them for FizzBuzz and then have them do the labs paired.,"Afternoon (lime), Jeremy (purple)",,,0,,0,0,0,0,2019-11-07T15:31:54.872Z,5da7231a79a2d285ded2f899,Day 4 - Mon 11/11,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f8eb,"Methods (2:00 est, 2:45)",https://trello.com/c/4VkEWRDR/11-methods-200-est-245,,Jeremy (purple),,,0,,0,0,0,0,2019-11-08T18:57:59.812Z,5da7231a79a2d285ded2f899,Day 4 - Mon 11/11,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f8fd,FizzBuzz (0:30),https://trello.com/c/ev92q0DX/20-fizzbuzz-030,,"Afternoon (lime), Paired (lime)",,,0,,0,0,0,0,2019-10-16T14:03:14.499Z,5da7231a79a2d285ded2f899,Day 4 - Mon 11/11,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f9e3,Fibonacci (0:30),https://trello.com/c/WFf5I77R/135-fibonacci-030,,"Afternoon (lime), Paired (lime)",,,0,,0,0,0,0,2019-10-16T14:03:09.560Z,5da7231a79a2d285ded2f899,Day 4 - Mon 11/11,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f9cb,Fibonacci Review (0:35),https://trello.com/c/2Mjbi6Cr/123-fibonacci-review-035,,Paul (red),,,0,,0,0,0,0,2019-11-12T16:33:16.573Z,5da7231a79a2d285ded2f89a,Day 5 - Tue 11/12,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f90d,NumeralSystems (1:30),https://trello.com/c/WwLEKJDy/28-numeralsystems-130,,Rob (green),,,0,,0,0,0,0,2019-10-16T14:03:14.205Z,5da7231a79a2d285ded2f89a,Day 5 - Tue 11/12,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f987,ForLoop Build Together (1:00),https://trello.com/c/ic7x3XnG/89-forloop-build-together-100,Gimme the Loop,"In Class (blue), SKIP (black)",,,0,,0,0,0,0,2019-10-16T14:03:11.843Z,5da7231a79a2d285ded2f89a,Day 5 - Tue 11/12,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f90f,"Primitive Data Types (2:00 lec, 0:30 lab)",https://trello.com/c/NwKAnL1V/29-primitive-data-types-200-lec-030-lab,"Finally discuss memory
+Draw types and sizes
+
+Maybe talk about the ""integer family"". Momma ""int"" and Daddy ""long"" had some children: ""byte"", ""short"", and ""char"". ""double"" and ""float"" don't have any children. ""boolean"" isn't married.",Paul (red),,,0,,0,0,0,0,2019-11-12T21:23:40.045Z,5da7231a79a2d285ded2f89a,Day 5 - Tue 11/12,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f911,CastingDataTypes (1:00 + 1:00),https://trello.com/c/CL3eXcc9/30-castingdatatypes-100-100,,Paul (red),,,0,,0,0,0,0,2019-11-12T22:35:24.393Z,5da7231a79a2d285ded2f89a,Day 5 - Tue 11/12,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f8f7,Arrays (2:00)(1:00),https://trello.com/c/Q79RKeTa/17-arrays-200100,,Alex (sky),,,0,,0,0,0,0,2019-11-05T16:11:32.784Z,5da7231a79a2d285ded2f89b,Day 6 - Wed 11/13,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f8f1,"IntroToObjects (2:00 est, 2:39)",https://trello.com/c/2mDGepMC/14-introtoobjects-200-est-239,,Jeremy (purple),,,0,,0,0,0,0,2019-11-05T16:11:27.209Z,5da7231a79a2d285ded2f89b,Day 6 - Wed 11/13,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5dc439b33087aa8e95ba41a3,Follow the Leader Quiz,https://trello.com/c/Cg0y9mlM/199-follow-the-leader-quiz,,,,,0,,0,0,0,0,2019-11-07T15:35:20.141Z,5da7231a79a2d285ded2f89b,Day 6 - Wed 11/13,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f8fb,DeafGrandmaObjects (1:00),https://trello.com/c/dUVdV3fc/19-deafgrandmaobjects-100,//Stretch goal: pass user name in args array,"Afternoon (lime), Pair (lime)",,,0,,0,0,0,0,2019-10-16T14:03:14.658Z,5da7231a79a2d285ded2f89b,Day 6 - Wed 11/13,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f8ff,NameGenerator (1:00),https://trello.com/c/uiGydhHy/21-namegenerator-100,"Best I've ever done this. Started with drawing a huge empty Wu-Tang logo, then added methods to the right side, arrays to the left.
+
+We discussed whether the methods should write to the screen or return a String. We landed on returning a String because maybe we want to use that String and put it on a website instead of just printing to the console.
+
+Once we coded stubs for those methods, we made a new class with a different job. It had a Scanner (old-timey typewriter) and the W symbol in `main`. We then coded that to work, though we always got `null null` because our stubs didn't do anything. Then we fixed our stubs.
+
+After getting a large number from `toCharArray()` I asked military people what time it was. They said 14:00. So if I wanted to impress them and said ""I'll see you at 27:00 hours"" what am I saying? How did you get that? Went around the clock twice to get the hours left... the remainder. What if I gave that clock 37 hands (or whatever amount we have in our array). Then I could use mod and always be in range of my array.","In Class (blue), Rob (green)",,,1,https://trello-attachments.s3.amazonaws.com/5da7231a79a2d285ded2f895/5da7231a79a2d285ded2f8ff/x/fe6a069afee0d19b69f8d79ca3346c0c/IMG_20190319_143522137.jpg,0,0,0,0,2019-10-16T14:03:15.725Z,5da7231a79a2d285ded2f89c,Day 7 - Thu 11/14,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2fa01,Arrays / Objects review (0:30),https://trello.com/c/0c8CBE27/150-arrays-objects-review-030,,"Paul (red), SKIP (black)",,,0,,0,0,0,0,2019-10-16T14:03:08.952Z,5da7231a79a2d285ded2f89c,Day 7 - Thu 11/14,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f901,"AdvancedForLoops (Lec 1:50, Lab 0:25)",https://trello.com/c/4QKVlinY/22-advancedforloops-lec-150-lab-025,"'- Nested For Loops
+- For Each (use with Arrays)",Paul (red),,,0,,0,0,0,0,2019-10-16T14:03:14.432Z,5da7231a79a2d285ded2f89c,Day 7 - Thu 11/14,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f907,AdvancedArrays (1:30),https://trello.com/c/Pou0vtrr/25-advancedarrays-130,"Multi-Dimensional
+Nested For Each
+Varargs",Paul (red),,,0,,0,0,0,0,2019-10-16T14:03:14.313Z,5da7231a79a2d285ded2f89c,Day 7 - Thu 11/14,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f90b,TicTacToe (2.5),https://trello.com/c/jZPnTlVw/27-tictactoe-25,,"Afternoon (lime), Pair (lime)",,,0,,0,0,0,0,2019-10-16T14:03:14.238Z,5da7231a79a2d285ded2f89c,Day 7 - Thu 11/14,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f9e5,Present Tic Tac Toe (0:30),https://trello.com/c/4gZAaOZv/136-present-tic-tac-toe-030,,"In Class (blue), Paul (red)",,,0,,0,0,0,0,2019-10-16T14:03:09.524Z,5da7231a79a2d285ded2f89d,Day 8 - Fri 11/15,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f9c5,Java1 - Working Sets (0:15),https://trello.com/c/b1bW9WEf/120-java1-working-sets-015,,Alex (sky),,,0,,0,0,0,0,2019-10-16T14:03:10.291Z,5da7231a79a2d285ded2f89d,Day 8 - Fri 11/15,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f905,Packages (0:30 + 0:30),https://trello.com/c/AOx6WhtM/24-packages-030-030,Command line execution.,Alex (sky),,,0,,0,0,0,0,2019-10-16T14:03:14.361Z,5da7231a79a2d285ded2f89d,Day 8 - Fri 11/15,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2fa11,Heap and Constructors (0:50),https://trello.com/c/24oWosoP/158-heap-and-constructors-050,"This was an explanation of objects on the heap, with some whiteboarding. That part took maybe 15 minutes. Then we went into constructors because ctors show up in the String and StringBuilder chapter. About 35 minutes there.","Jeremy (purple), SKIP (black)",,,0,,0,0,0,0,2019-11-13T15:39:49.181Z,5da7231a79a2d285ded2f89d,Day 8 - Fri 11/15,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5dceea214e1591874f6b582b,Quiz - Syntax Bugs (written),https://trello.com/c/HVvmGmMf/200-quiz-syntax-bugs-written,,Denise (orange),,,1,https://trello-attachments.s3.amazonaws.com/5da7231a79a2d285ded2f895/5dceea214e1591874f6b582b/f74603e92bdf7703ed12236172d3ee04/Quiz0.pdf,0,0,0,0,2019-11-19T03:07:30.327Z,5da7231a79a2d285ded2f89d,Day 8 - Fri 11/15,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f92d,StringAndStringBuilder (2:00)(0:30),https://trello.com/c/FoaFFNwg/44-stringandstringbuilder-200030,,Jeremy (purple),,,0,,0,0,0,0,2019-10-16T14:03:13.612Z,5da7231a79a2d285ded2f89d,Day 8 - Fri 11/15,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f9d5,Multidimensional Array Review (0:30),https://trello.com/c/Cn8ktPL3/128-multidimensional-array-review-030,"Started a tic-tac-toe board, asked them to declare and instantiate it to hold chars on their whiteboards. Then assign 'o' to middle space. Then 'x' to another one.
+
+Then got into arrays of arrays by drawing it differently, an array with arrows to other arrays. Then 3 dimensions. Then 4. And, could I assign this 2d array to this arry[0][1] space in the 4d array? And what would the bracket indexes be for this spot in the 4d array (point out a spot in the 4th dimension)?","Paul (red), SKIP (black)",,,0,,0,0,0,0,2019-10-16T14:03:09.885Z,5da7231a79a2d285ded2f89d,Day 8 - Fri 11/15,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f9e7,Mad Libs - Arrays and StringBuilder,https://trello.com/c/RGQn8UJX/137-mad-libs-arrays-and-stringbuilder,Last lab in https://github.com/SkillDistillery/Staff-Only/blob/master/Content/java1/StringAndStringBuilder/labs.md,"Afternoon (lime), Pair (lime), SKIP (black)",,,0,,0,0,0,0,2019-11-15T17:59:31.919Z,5da7231a79a2d285ded2f89d,Day 8 - Fri 11/15,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f917,MakeChange Setup (1:00),https://trello.com/c/Iwwzzagx/33-makechange-setup-100,,"In Class (blue), Rob (green)",,,0,,0,0,0,0,2019-11-06T19:07:13.217Z,5da7231a79a2d285ded2f89d,Day 8 - Fri 11/15,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f919,Present MakeChange (0:30),https://trello.com/c/HExuEvDU/34-present-makechange-030,,"In Class (blue), Paul (red), SKIP? (black)",,,0,,0,0,0,0,2019-11-06T19:07:22.696Z,5da7231a79a2d285ded2f89e,Day 9 - Mon 11/18,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2fa09,Grade MakeChange,https://trello.com/c/9ateE7lT/154-grade-makechange,,"GRADING (black), Paul (red)",,,0,,0,0,0,0,2019-11-06T19:08:07.763Z,5da7231a79a2d285ded2f89e,Day 9 - Mon 11/18,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f913,ASCIIData (1:30)(lab 0:30),https://trello.com/c/cGF9iJTj/31-asciidata-130lab-030,,Paul (red),,,0,,0,0,0,0,2019-10-16T14:03:14.108Z,5da7231a79a2d285ded2f89e,Day 9 - Mon 11/18,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f91b,Objects  (2:15),https://trello.com/c/Zx0WhMzd/35-objects-215,"heap
+ctors
+pass by value to methods",Denise (orange),,,0,,0,0,0,0,2019-10-16T14:03:13.914Z,5da7231a79a2d285ded2f89e,Day 9 - Mon 11/18,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f91f,ObjectsUML  (1),https://trello.com/c/Crb5SLp6/37-objectsuml-1,,Denise (orange),,,0,,0,0,0,0,2019-10-16T14:03:13.842Z,5da7231a79a2d285ded2f89e,Day 9 - Mon 11/18,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f921,JUnit (2:00),https://trello.com/c/ffgDIZBn/38-junit-200,,Alex (sky),,,0,,0,0,0,0,2019-11-15T18:51:50.426Z,5da7231a79a2d285ded2f89e,Day 9 - Mon 11/18,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f923,"CaesarCipher (0:15 setup, 2:00 est)",https://trello.com/c/n7lBgBik/39-caesarcipher-015-setup-200-est,,"Afternoon (lime), Pair (lime)",,,0,,0,0,0,0,2019-10-16T14:03:13.759Z,5da7231a79a2d285ded2f89e,Day 9 - Mon 11/18,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f9d7,UML and JUnit Review (0:33),https://trello.com/c/e9pSXwEO/129-uml-and-junit-review-033,"Work with table partner.
+UML
+
+* What is the purpose of UML? (Communicating class design to other people - maybe they speak Ruby. Also, documentation.)
+* What are the three parts of the diagram?
+* 4 visibilities, and their symbols if you can
+* Diagram for a simple class (one private field, one method)
+* Add class Other, how would you add this to diagram? Two ways. (show has-a arrow)
+* Discuss HAS-A and how it works with owning class's field
+
+JUnit
+
+* What is the purpose of JUnit (writing code to test code). Answers like refactoring code to make sure it still works.
+* (Someone will mention TDD.) What is the key to TDD? (A failing test first).
+* What is it actually doing? (Writing methods to call methods in your class and assert if they output what you expected.)",SKIP (black),,,0,,0,0,0,0,2019-10-16T14:03:09.832Z,5da7231a79a2d285ded2f89f,Day 10 - Tue 11/19,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2fa2f,Present CaesarCipher (0:30),https://trello.com/c/3YLbgH5C/173-present-caesarcipher-030,,SKIP (black),,,0,,0,0,0,0,2019-11-15T18:02:46.339Z,5da7231a79a2d285ded2f89f,Day 10 - Tue 11/19,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f9c3,Encapsulation (2:00 + 1:30 lab),https://trello.com/c/3lHTP3ba/119-encapsulation-200-130-lab,,Denise (orange),,,0,,0,0,0,0,2019-11-19T18:12:52.643Z,5da7231a79a2d285ded2f89f,Day 10 - Tue 11/19,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f91d,ObjectsInitialization (1:15 + 1 lab),https://trello.com/c/BhgantIU/36-objectsinitialization-115-1-lab,"instance init
+this()
+order of init
+private methods
+""interface"" definition (ie: API)
+",Denise (orange),,,0,,0,0,0,1,2019-11-19T21:51:41.743Z,5da7231a79a2d285ded2f89f,Day 10 - Tue 11/19,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f925,Inheritance (1:05 + 0:30),https://trello.com/c/uENGbvum/40-inheritance-105-030,,Paul (red),,,0,,0,0,0,0,2019-10-16T14:03:13.711Z,5da7231a79a2d285ded2f89f,Day 10 - Tue 11/19,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f9e9,Visibility and Inheritance (1:00),https://trello.com/c/S0cB1gqS/138-visibility-and-inheritance-100,,SKIP (black),,,0,,0,0,0,0,2019-10-16T14:03:09.441Z,5da7231a79a2d285ded2f89f,Day 10 - Tue 11/19,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2fa31,Presentation samplers of weekend homework (0:30),https://trello.com/c/6Wul9VLs/174-presentation-samplers-of-weekend-homework-030,,"Paul (red), SKIP (black)",,,0,,0,0,0,0,2019-11-15T18:03:25.276Z,5da7231a79a2d285ded2f8a0,Day 11 - Wed 11/20,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2fa2b,Pre-Quiz review (30 minutes),https://trello.com/c/ZgNGhW1H/171-pre-quiz-review-30-minutes,,Denise (orange),,,0,,0,0,0,0,2019-11-15T18:05:05.945Z,5da7231a79a2d285ded2f8a0,Day 11 - Wed 11/20,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2fa1b,Coffee Quiz 1   (:45),https://trello.com/c/ihRiHQ0K/163-coffee-quiz-1-45,"Copy the below, being sure not to grab the solution, and have students paste into Eclipse. Students will be given 45 minutes to complete. This is open-book, closed-mouth, and separation of neighbors.",Denise (orange),,,2,"https://trello-attachments.s3.amazonaws.com/5da7231a79a2d285ded2f895/5da7231a79a2d285ded2fa1b/x/58eafdfc9e72c7864ddb30e1419d947b/CoffeePot.java, https://trello-attachments.s3.amazonaws.com/5da7231a79a2d285ded2f895/5da7231a79a2d285ded2fa1b/x/1727f0a9a1ac298a2c5e74d8fbac7dc2/CoffeePotSoln.java",0,0,0,1,2019-11-21T00:22:40.267Z,5da7231a79a2d285ded2f8a0,Day 11 - Wed 11/20,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f9eb,SuperClasses (1:30)(0:30),https://trello.com/c/9vSdbnpi/139-superclasses-130030,,Paul (red),,,0,,0,0,0,0,2019-10-16T14:03:09.402Z,5da7231a79a2d285ded2f8a0,Day 11 - Wed 11/20,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2fa03,Polymorphism I (3:00)(0:30),https://trello.com/c/SI47d5Pl/151-polymorphism-i-300030,"Override
+IS-A arrow
+Method choice",Paul (red),,,0,,0,0,0,0,2019-10-16T14:03:08.908Z,5da7231a79a2d285ded2f8a0,Day 11 - Wed 11/20,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f929,Animal Sanctuary (1:00),https://trello.com/c/RVd63UjI/42-animal-sanctuary-100,,"Afternoon (lime), Pair (lime)",,,0,,0,0,0,0,2019-10-16T14:03:13.657Z,5da7231a79a2d285ded2f8a0,Day 11 - Wed 11/20,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2fa13,APIE Review (0:30),https://trello.com/c/3JNulfHj/159-apie-review-030,"Imagine we're going to a bar. Is it a nice place or a local watering hole? (They choose.)
+Okay, the name of that bar is APIE. (""A Pie"" or ""Ah Pee-ay"" if they choose the nice place - but the locals call the nice place ""A Pie."") (Write A P I E vertically on the board.)
+What will we talk to people about? The four pillars of Object-Oriented Programming, of course.
+Ask what the A is. Have students and their table partners (sitting next to them) discuss what they're going to say about Abstraction.
+Then same for Encapsulation, since it's easy.
+Then Inheritance.
+Then Polymorphism.
+
+In the middle I asked them to come up with the name of the signature drink at this bar. They looked confused. I told them it doesn't have to do with OOP, just use their imaginations.","SKIP (black), UNASSIGNED (black)",,,0,,0,0,0,0,2019-10-16T14:03:08.544Z,5da7231a79a2d285ded2f8a1,Day 12 - Thu 11/21,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f9b7,Animal Sanctuary Live Code (1:45),https://trello.com/c/NvKYVKei/113-animal-sanctuary-live-code-145,"This is an example like Animal Sanctuary, but leading to polymorphism (which is a long chapter).
+
+Draw `Animal` hierarchy. Ask students for types. Could have a supertype called `Carnivore` to eventually lead to abstract classes.
+
+`Animal[]` that can hold all types, then a `makeNoise` method where all `Animal` objects make noise.",Paul (red),,,0,,0,0,0,0,2019-10-16T14:03:10.802Z,5da7231a79a2d285ded2f8a1,Day 12 - Thu 11/21,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f935,AbstractClasses (1:30),https://trello.com/c/vetMjHPZ/48-abstractclasses-130,"Have students draw a Giraffe on their whiteboard.
+
+Then have them draw a Lion.
+
+Now ask them to draw an Animal, making the point that ""Animal"" is a concept, that it's abstract.
+
+Draw hierarchy on whiteboard, with a drawing of a Giraffe and a Lion.  Draw something Carnivores have in common - sharp teeth (mouth with sharp teeth), a `catchPrey(Animal)` and `eat(Animal)` methods.
+
+Ask for methods all Animals have in common - `eat(int)`, `poop()`, `die()`, `procreate()`.  Some could be concrete, some abstract.",Paul (red),,,0,,0,0,0,0,2019-10-16T14:03:13.495Z,5da7231a79a2d285ded2f8a1,Day 12 - Thu 11/21,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2fa07,Polymorphism II (Casting) (1:20),https://trello.com/c/HyXOuPiB/153-polymorphism-ii-casting-120,,Denise (orange),,,0,,0,0,0,0,2019-10-16T14:03:08.749Z,5da7231a79a2d285ded2f8a1,Day 12 - Thu 11/21,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f92f,EqualsAndHashCode (:30),https://trello.com/c/teuqgsXp/45-equalsandhashcode-30,,Denise (orange),,,0,,0,0,0,0,2019-10-16T14:03:13.586Z,5da7231a79a2d285ded2f8a1,Day 12 - Thu 11/21,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f933,LordOfTheObjects 1 / walkUp music reminder (1:30),https://trello.com/c/Oh71pW7E/47-lordoftheobjects-1-walkup-music-reminder-130,"This is a paired assignment, BUT is not 'paired' from a Git point of view. There is no shared Git repo for this assignment (which is introduced much later). Students will have to slack each other their code at this point, or implementing pair-programming (driver/nav) in 1 source stream.
+Remind students to provide walk-up music.","Afternoon (lime), Denise (orange), Pair Study (lime)",,,0,,0,0,0,0,2019-11-22T16:05:46.666Z,5da7231a79a2d285ded2f8a1,Day 12 - Thu 11/21,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f9ef,Smart Home Project,https://trello.com/c/3I6apL1n/141-smart-home-project,,"Afternoon (lime), Pair Study (lime), SKIP (black)",,,0,,0,0,0,0,2019-10-16T14:03:09.318Z,5da7231a79a2d285ded2f8a1,Day 12 - Thu 11/21,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f9b9,Presentation Intro (:30),https://trello.com/c/VU22lYo0/114-presentation-intro-30,"5: Importance of presentation skills, note on video controversiality.
+20: Amy Cuddy video: https://www.ted.com/talks/amy_cuddy_your_body_language_shapes_who_you_are?language=en
+5-10: Teams prepare presentation, send walkup music
+10/team: Present
+",Alex (sky),,,0,,0,0,0,0,2019-11-21T00:14:40.293Z,5da7231a79a2d285ded2f8a2,Day 13 - Fri 11/22,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f939,Present LordOfTheObjects (1:00),https://trello.com/c/O5sWbyRd/50-present-lordoftheobjects-100,,"Alex (sky), In Class (blue)",,,0,,0,0,0,0,2019-11-21T00:14:45.039Z,5da7231a79a2d285ded2f8a2,Day 13 - Fri 11/22,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2fa1d,Smart Home and Interface review (1:00),https://trello.com/c/VX836z4u/164-smart-home-and-interface-review-100,,SKIP (black),,,0,,0,0,0,0,2019-10-16T14:03:08.374Z,5da7231a79a2d285ded2f8a2,Day 13 - Fri 11/22,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f937,"Interfaces (1:45) (1:00 lecture, 0:45 lab)",https://trello.com/c/YbNZIa87/49-interfaces-145-100-lecture-045-lab,,Alex (sky),,,0,,0,0,0,0,2019-10-16T14:03:13.452Z,5da7231a79a2d285ded2f8a2,Day 13 - Fri 11/22,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f931,WrapperClasses (2:00)(2:30),https://trello.com/c/SSEqmayk/46-wrapperclasses-200230,,Alex (sky),,,0,,0,0,0,0,2019-10-16T14:03:13.564Z,5da7231a79a2d285ded2f8a2,Day 13 - Fri 11/22,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f9ed,Data Entry with Exceptions,https://trello.com/c/qW4E60Pm/140-data-entry-with-exceptions,"Simulate a data entry system. Users will be prompted to enter numeric data. The program will add each item to a list of valid numbers.
+
+If the user enters a non-number, an exception will be thrown, which students must handle. The user is notified of the invalid input, and prompted to continue entering input. All invalid entries are written to another list. 
+
+If the user enters ""EXIT"", the system prints a goodbye message and exits.
+
+However, if the user enters ""ADMIN"", they are presented with a chance to enter a password. If they enter the correct password ""PASSWORD"" they are presented with a menu to view each log of valid and invalid input.
+
+If the user enters the wrong password, an `InvalidPasswordException` (custom exception class) is thrown, and the user is returned to the original numeric entry prompt.","Afternoon (lime), SKIP (black)",,,0,,0,0,0,0,2019-10-16T14:03:09.371Z,5da7231a79a2d285ded2f8a2,Day 13 - Fri 11/22,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2fa29,Food Truck setup,https://trello.com/c/jjAJL0Db/170-food-truck-setup,"Checks understanding of Objects (ctors), using 1-dim array of (Truck) objects, loop, basic String compare, Encapsulation (private), and static use (truck id).","Rob (green), Weekend Homework (blue)",,,0,,0,0,0,0,2019-11-06T19:11:07.132Z,5da7231a79a2d285ded2f8a2,Day 13 - Fri 11/22,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2fa15,SD22 Midterm Presentation,https://trello.com/c/VlF7i5MA/160-sd22-midterm-presentation,,,,,0,,0,0,0,0,2019-11-15T18:04:02.781Z,5da7231a79a2d285ded2f8a2,Day 13 - Fri 11/22,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2fa0b,Grade FoodTruck Homework,https://trello.com/c/laSSWZZF/155-grade-foodtruck-homework,,"Denise (orange), GRADING (black), Staff (pink)",,,0,,0,0,0,0,2019-11-21T00:15:07.191Z,5da7231a79a2d285ded2f8a3,Day 14 - Mon 11/25,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f9fb,java2.zip (0:10),https://trello.com/c/6pXQtEXf/147-java2zip-010,,Jeremy (purple),,,0,,0,0,0,0,2019-11-22T17:48:27.405Z,5da7231a79a2d285ded2f8a3,Day 14 - Mon 11/25,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f943,GenericsAndArrayList (2:00),https://trello.com/c/E7hSUNX1/55-genericsandarraylist-200,,Jeremy (purple),,,0,,0,0,0,0,2019-11-20T15:39:37.513Z,5da7231a79a2d285ded2f8a3,Day 14 - Mon 11/25,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f945,ListInterface (1:35),https://trello.com/c/YFAjiWse/56-listinterface-135,,Jeremy (purple),,,0,,0,0,0,0,2019-10-16T14:03:13.200Z,5da7231a79a2d285ded2f8a3,Day 14 - Mon 11/25,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f93b,Exceptions (2:00),https://trello.com/c/4bsUF0af/51-exceptions-200,,Jeremy (purple),,,0,,0,0,0,0,2019-10-16T14:03:13.392Z,5da7231a79a2d285ded2f8a3,Day 14 - Mon 11/25,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f93d,ExceptionsJUnit (1:00),https://trello.com/c/AGQGpL2G/52-exceptionsjunit-100,"Can be shortened, don't really need labs.","Jeremy (purple), SKIP? (black)",,,0,,0,0,0,0,2019-10-16T14:03:13.357Z,5da7231a79a2d285ded2f8a3,Day 14 - Mon 11/25,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f949,File I/O (1:40),https://trello.com/c/nxnTU5D1/58-file-i-o-140,,Paul (red),,,0,,0,0,0,0,2019-10-16T14:03:13.109Z,5da7231a79a2d285ded2f8a3,Day 14 - Mon 11/25,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f9f1,NameSeparatorApp,https://trello.com/c/CeGEnwCh/142-nameseparatorapp,"Short chapter, but pair for the `Set` labs because the last one is hard.","Afternoon (lime), Pair (lime)",,,0,,0,0,0,0,2019-10-16T14:03:09.280Z,5da7231a79a2d285ded2f8a3,Day 14 - Mon 11/25,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f94b,Set (2:00) Lecture 1:30 — Labs/Skill Drills 0:30,https://trello.com/c/jLZf5Nu4/59-set-200-lecture-130-labs-skill-drills-030,"Short chapter, but pair for the `Set` labs because the last one is hard.",Alex (sky),,,0,,0,0,0,0,2019-11-20T15:53:28.681Z,5da7231a79a2d285ded2f8a4,Day 15 - Tue 11/26,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2fa17,NameSeparator (Set version) Review Soln (0:45),https://trello.com/c/ghpUTvwy/161-nameseparator-set-version-review-soln-045,,Denise (orange),,,0,,0,0,0,0,2019-11-22T16:14:27.877Z,5da7231a79a2d285ded2f8a4,Day 15 - Tue 11/26,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f92b,Garbage Collection (0:45),https://trello.com/c/IzOXsFml/43-garbage-collection-045,,Denise (orange),,,0,,0,0,0,0,2019-10-16T14:03:13.632Z,5da7231a79a2d285ded2f8a4,Day 15 - Tue 11/26,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f94d,Map (2:00),https://trello.com/c/yiza6nLp/60-map-200,Pair for the labs since they can be difficult.,Denise (orange),,,0,,0,0,0,0,2019-11-19T19:51:50.176Z,5da7231a79a2d285ded2f8a4,Day 15 - Tue 11/26,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f9cf,Map labs review (0:30),https://trello.com/c/w5rePzVt/125-map-labs-review-030,,Denise (orange),,,0,,0,0,0,0,2019-11-19T19:51:53.096Z,5da7231a79a2d285ded2f8a4,Day 15 - Tue 11/26,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f94f,Regex (2:00),https://trello.com/c/7JGHvQ0O/61-regex-200,,Alex (sky),,,0,,0,0,0,0,2019-10-16T14:03:12.960Z,5da7231a79a2d285ded2f8a5,Day 16 - Wed 11/27,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f951,RegexJava (2:00),https://trello.com/c/CGYrVNu3/62-regexjava-200,,Alex (sky),,,0,,0,0,0,0,2019-10-16T14:03:12.915Z,5da7231a79a2d285ded2f8a5,Day 16 - Wed 11/27,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f953,PigLatin (2:00),https://trello.com/c/nXfZUt1w/63-piglatin-200,,Afternoon (lime),,,0,,0,0,0,0,2019-11-20T15:40:19.135Z,5da7231a79a2d285ded2f8a5,Day 16 - Wed 11/27,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f93f,Jets + Setup (0:30),https://trello.com/c/7n5E2Q2u/53-jets-setup-030,Load Jets from a file.,"Alex (sky), In Class (blue)",,,0,,0,0,0,0,2019-11-22T16:06:12.461Z,5da7231a79a2d285ded2f8a5,Day 16 - Wed 11/27,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f955,DeclOfIndep (1:00),https://trello.com/c/9CF7ANKG/64-declofindep-100,,"Afternoon (lime), Optional (black)",,,0,,0,0,0,0,2019-10-16T14:03:12.832Z,5da7231a79a2d285ded2f8a5,Day 16 - Wed 11/27,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5db713a8365bc756ad80b652,Grade Jets,https://trello.com/c/fJaDj3v7/183-grade-jets,,"Denise (orange), GRADING (black), Staff (pink)",,,0,,0,0,0,0,2019-10-28T16:13:34.204Z,5db713a7365bc756ad80b64d,Thanksgiving - Thu 11/28-Fri 11/29,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,true
+5db713a8365bc756ad80b654,Present Jets (0:30),https://trello.com/c/lVUBCxCR/185-present-jets-030,,Denise (orange),,,0,,0,0,0,0,2019-10-28T16:13:37.398Z,5db713a7365bc756ad80b64d,Thanksgiving - Thu 11/28-Fri 11/29,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,true
+5db713a8365bc756ad80b651,Map (2:00),https://trello.com/c/zl33Axgu/184-map-200,Pair for the labs since they can be difficult.,Denise (orange),,,0,,0,0,0,0,2019-10-28T16:13:39.555Z,5db713a7365bc756ad80b64d,Thanksgiving - Thu 11/28-Fri 11/29,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,true
+5db713a8365bc756ad80b653,Map labs review (0:30),https://trello.com/c/CnTEUuDu/186-map-labs-review-030,,Denise (orange),,,0,,0,0,0,0,2019-10-28T16:13:42.189Z,5db713a7365bc756ad80b64d,Thanksgiving - Thu 11/28-Fri 11/29,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,true
+5db713a8365bc756ad80b655,Regex (2:00),https://trello.com/c/qwFwbb7k/187-regex-200,,Alex (sky),,,0,,0,0,0,0,2019-10-28T16:13:44.978Z,5db713a7365bc756ad80b64d,Thanksgiving - Thu 11/28-Fri 11/29,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,true
+5db713a8365bc756ad80b658,RegexJava (2:00),https://trello.com/c/oZgHFEDZ/190-regexjava-200,,Alex (sky),,,0,,0,0,0,0,2019-10-28T16:13:47.903Z,5db713a7365bc756ad80b64d,Thanksgiving - Thu 11/28-Fri 11/29,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,true
+5db713a8365bc756ad80b657,PigLatin (2:00),https://trello.com/c/AoCYjdfm/189-piglatin-200,,Afternoon (lime),,,0,,0,0,0,0,2019-10-28T16:13:50.136Z,5db713a7365bc756ad80b64d,Thanksgiving - Thu 11/28-Fri 11/29,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,true
+5db713a8365bc756ad80b656,DeclOfIndep (1:00),https://trello.com/c/a7MpUM1v/188-declofindep-100,,"Afternoon (lime), Optional (black)",,,0,,0,0,0,0,2019-10-28T16:13:52.567Z,5db713a7365bc756ad80b64d,Thanksgiving - Thu 11/28-Fri 11/29,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,true
+5da7231a79a2d285ded2fa0d,Grade Jets,https://trello.com/c/SMe8V60x/156-grade-jets,,"Denise (orange), GRADING (black), Staff (pink)",,,0,,0,0,0,0,2019-11-06T19:11:27.726Z,5da7231a79a2d285ded2f8a6,Day 17 - Mon 12/2,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f941,Present Jets (0:30),https://trello.com/c/8dFu8QvY/54-present-jets-030,,"SKIP (black), UNASSIGNED (black)",,,0,,0,0,0,0,2019-11-29T18:31:06.633Z,5da7231a79a2d285ded2f8a6,Day 17 - Mon 12/2,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f957,Elmer Fudd Translator (1:00),https://trello.com/c/1KSTWrHP/65-elmer-fudd-translator-100,,"In Class (blue), Rob (green), SKIP? (black)",,,0,,0,0,0,0,2019-11-20T15:50:27.389Z,5da7231a79a2d285ded2f8a6,Day 17 - Mon 12/2,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f959,Comp/Comparator Game (0:45),https://trello.com/c/dlFnwgrE/66-comp-comparator-game-045,,"In Class (blue), SKIP (black)",,,0,,0,0,0,0,2019-10-16T14:03:12.765Z,5da7231a79a2d285ded2f8a6,Day 17 - Mon 12/2,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f95b,Sorting - Comp/Comparator (0:45),https://trello.com/c/PnT7GtCs/67-sorting-comp-comparator-045,,Denise (orange),,,0,,0,0,0,0,2019-10-16T14:03:12.736Z,5da7231a79a2d285ded2f8a6,Day 17 - Mon 12/2,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f95d,Sorting - CollectionSorting (00:45)(lab: 1.30),https://trello.com/c/P6Nb0LTf/68-sorting-collectionsorting-0045lab-130,,Denise (orange),,,0,,0,0,0,0,2019-10-16T14:03:12.714Z,5da7231a79a2d285ded2f8a6,Day 17 - Mon 12/2,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f961,NBADraft Design (0:45),https://trello.com/c/caJcOQCn/70-nbadraft-design-045,,"In Class (blue), Rob (green)",,,0,,0,0,0,0,2019-10-16T14:03:12.666Z,5da7231a79a2d285ded2f8a6,Day 17 - Mon 12/2,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f963,NBADraft (2:00),https://trello.com/c/UXq0LTPX/71-nbadraft-200,,"Afternoon (lime), Denise (orange), Pair (lime)",,,0,,0,0,0,0,2019-12-02T20:18:21.242Z,5da7231a79a2d285ded2f8a6,Day 17 - Mon 12/2,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f967,NBA Draft Live Code (1:00),https://trello.com/c/ApO3TvIK/73-nba-draft-live-code-100,"Live-code NBA Draft, illustrate various OO points, coding practices, Eclipse trick, and answer questions along the way.
+
+Implement Powerball.","In Class (blue), Rob (green)",,,0,,0,0,0,0,2019-10-16T14:03:12.586Z,5da7231a79a2d285ded2f8a7,Day 18 - Tue 12/3,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2fa33,Powerball Live Code,https://trello.com/c/TnPhF1H1/175-powerball-live-code,,Rob (green),,,0,,0,0,0,0,2019-12-03T15:32:29.919Z,5da7231a79a2d285ded2f8a7,Day 18 - Tue 12/3,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f903,JVM (0:30),https://trello.com/c/aLpVjaAb/23-jvm-030,,Jeremy (purple),,,0,,0,0,0,0,2019-12-02T17:25:40.838Z,5da7231a79a2d285ded2f8a7,Day 18 - Tue 12/3,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f8f9,ArgsArray (0:30 + 0:30),https://trello.com/c/j5vMEihi/18-argsarray-030-030,,Jeremy (purple),,,0,,0,0,0,0,2019-12-02T17:25:46.546Z,5da7231a79a2d285ded2f8a7,Day 18 - Tue 12/3,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f9f5,"Intermediate Interfaces (static, default) (0:45 lecture) (0:00 labs)",https://trello.com/c/SQyCyW7h/144-intermediate-interfaces-static-default-045-lecture-000-labs,,Jeremy (purple),,,0,,0,0,0,0,2019-12-02T20:02:04.394Z,5da7231a79a2d285ded2f8a7,Day 18 - Tue 12/3,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f9d9,AnimalMenuQuiz (1:00),https://trello.com/c/lkXrqyvb/130-animalmenuquiz-100,,"Denise (orange), In Class (blue)",,,0,,0,0,0,0,2019-11-20T15:55:48.169Z,5da7231a79a2d285ded2f8a7,Day 18 - Tue 12/3,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f915,Debugging (0:30),https://trello.com/c/ATfdv8Ly/32-debugging-030,,Paul (red),,,0,,0,0,0,0,2019-12-03T17:23:47.714Z,5da7231a79a2d285ded2f8a7,Day 18 - Tue 12/3,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f965,Lottery (1:00),https://trello.com/c/ywBi13bJ/72-lottery-100,,"Afternoon (lime), Pair (lime), Rob (green)",,,0,,0,0,0,0,2019-10-16T14:03:12.621Z,5da7231a79a2d285ded2f8a7,Day 18 - Tue 12/3,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f9f3,Mad Libs Map/File IO,https://trello.com/c/GBnXVraF/143-mad-libs-map-file-io,,"Afternoon (lime), Pair (lime), Rob (green)",,,0,,0,0,0,0,2019-10-16T14:03:09.232Z,5da7231a79a2d285ded2f8a7,Day 18 - Tue 12/3,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2fa35,Hand out Head First Java,https://trello.com/c/xghzSmRD/176-hand-out-head-first-java,"* Talk about book's style, value of reading introduction, don't write in book.
+* Not a bathroom book.
+",Rob (green),,,0,,0,0,0,0,2019-10-16T14:03:07.940Z,5da7231a79a2d285ded2f8a7,Day 18 - Tue 12/3,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2fa37,"Finish MadLibs, start reading Head First Java",https://trello.com/c/Ha642SeY/177-finish-madlibs-start-reading-head-first-java,,,,,0,,0,0,0,0,2019-10-16T14:03:07.906Z,5da7231a79a2d285ded2f8a8,Day 19 - Wed 12/4,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2fa3d,Mad Libs Live Code,https://trello.com/c/4mn9jbQJ/180-mad-libs-live-code,,Rob (green),,,0,,0,0,0,0,2019-12-03T21:40:23.599Z,5da7231a79a2d285ded2f8a8,Day 19 - Wed 12/4,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2fa3b,Sort Algorithms,https://trello.com/c/MoW4bmpm/179-sort-algorithms,"Youtube visualizations of sort algorithms.
+
+* https://www.youtube.com/watch?v=ZZuD6iUe3Pc
+
+* https://www.youtube.com/watch?v=BeoCbJPuvSE",Rob (green),,,0,,0,0,0,0,2019-12-02T20:28:58.832Z,5da7231a79a2d285ded2f8a8,Day 19 - Wed 12/4,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2fa39,Binary Search Algorithm,https://trello.com/c/KMAwXrVT/178-binary-search-algorithm,"Brief (10-15 minute) explanation of binary search, using a book as a model.
+
+",Rob (green),,,0,,0,0,0,0,2019-10-16T14:03:07.852Z,5da7231a79a2d285ded2f8a8,Day 19 - Wed 12/4,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f95f,HashMap Internals (0:30),https://trello.com/c/BDV5tZLQ/69-hashmap-internals-030,,Rob (green),,,0,,0,0,0,0,2019-10-16T14:03:12.693Z,5da7231a79a2d285ded2f8a8,Day 19 - Wed 12/4,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f99b,JUnit String/StringBuilder Lab?,https://trello.com/c/xzSd81ZC/99-junit-string-stringbuilder-lab,,"Rob (green), SKIP (black)",,,0,,0,0,0,0,2019-10-16T14:03:11.419Z,5da7231a79a2d285ded2f8a8,Day 19 - Wed 12/4,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f9c7,RomanNumerals,https://trello.com/c/gzzgJpC4/121-romannumerals,,"Afternoon (lime), Pair (lime), Rob (green)",,,0,,0,0,0,0,2019-10-16T14:03:10.220Z,5da7231a79a2d285ded2f8a8,Day 19 - Wed 12/4,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f947,WhiteRabbit (3:00),https://trello.com/c/wWk5QxNA/57-whiterabbit-300,,"Afternoon (lime), Pair (lime), Rob (green)",,,0,,0,0,0,0,2019-10-16T14:03:13.164Z,5da7231a79a2d285ded2f8a8,Day 19 - Wed 12/4,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f9db,CollectionsAnimalsQuiz (1:00),https://trello.com/c/Mj1tbcrN/131-collectionsanimalsquiz-100,,"In Class (blue), SKIP (black)",,,0,,0,0,0,0,2019-10-16T14:03:09.722Z,5da7231a79a2d285ded2f8a8,Day 19 - Wed 12/4,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f96d,DatesAndTimes (1:30),https://trello.com/c/8Z0D6I4M/76-datesandtimes-130,,Denise (orange),,,0,,0,0,0,0,2019-10-16T14:03:12.422Z,5da7231a79a2d285ded2f8aa,Day 20 - Thu 12/5,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f96f,DateAndTimesExercises (0:30),https://trello.com/c/0O1sBhiI/77-dateandtimesexercises-030,,Denise (orange),,,0,,0,0,0,0,2019-10-16T14:03:12.382Z,5da7231a79a2d285ded2f8aa,Day 20 - Thu 12/5,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f971,"USPresidents 
+    java2/History/datesTimes.md",https://trello.com/c/I4WZS00a/78-uspresidents-java2-history-datestimesmd,"File I/O
+DateTime","Afternoon (lime), Denise (orange)",,,0,,0,0,0,0,2019-10-16T14:03:12.348Z,5da7231a79a2d285ded2f8aa,Day 20 - Thu 12/5,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5de94b2da6f9d53f200938c7,Review PresidentsAppDates,https://trello.com/c/47zxav3g/201-review-presidentsappdates,,Denise (orange),,,0,,0,0,0,0,2019-12-05T18:23:49.260Z,5da7231a79a2d285ded2f8aa,Day 20 - Thu 12/5,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f975,InnerClasses (2:30),https://trello.com/c/hCqSK50I/80-innerclasses-230,,Jeremy (purple),,,1,https://trello-attachments.s3.amazonaws.com/5da7231a79a2d285ded2f895/5da7231a79a2d285ded2f975/x/fac8dd4b0db4f1b07774795c89d4c621/IMG_20180723_153145023.jpg,0,0,0,0,2019-12-02T17:26:12.213Z,5da7231a79a2d285ded2f8aa,Day 20 - Thu 12/5,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f977,Presidents InnerClass (2:00),https://trello.com/c/8lctlGxB/81-presidents-innerclass-200,,"Afternoon (lime), Jeremy (purple), Pair (lime)",,,0,,0,0,0,0,2019-12-02T17:26:46.594Z,5da7231a79a2d285ded2f8aa,Day 20 - Thu 12/5,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5de94b6e3abe046b3917d557,Presidents Review + Presidents Filtering (0:45),https://trello.com/c/ycxlRNlc/202-presidents-review-presidents-filtering-045,,"In Class (blue), Jeremy (purple)",,,0,,0,0,0,0,2019-12-05T18:24:52.764Z,5da7231a79a2d285ded2f8a9,Day 21 - Fri 12/6,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f9d1,WhiteRabbit Review (1:00),https://trello.com/c/w3CRyTx7/126-whiterabbit-review-100,,"SKIP (black), UNASSIGNED (black)",,,0,,0,0,0,0,2019-10-16T14:03:09.956Z,5da7231a79a2d285ded2f8a9,Day 21 - Fri 12/6,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2fa1f,Present RomanNumerals,https://trello.com/c/CvI7LmjB/165-present-romannumerals,,"Rob (green), SKIP (black)",,,0,,0,0,0,0,2019-12-05T18:25:01.375Z,5da7231a79a2d285ded2f8a9,Day 21 - Fri 12/6,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f969,Enums + cards lab (1:30),https://trello.com/c/g5AZ4TQt/74-enums-cards-lab-130,,"In Class (blue), Jeremy (purple)",,,0,,0,0,0,0,2019-12-02T17:25:55.443Z,5da7231a79a2d285ded2f8a9,Day 21 - Fri 12/6,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f96b,Blackjack,https://trello.com/c/yfIhqfjf/75-blackjack,,"In Class (blue), Rob (green), Weekend Homework (blue)",,,0,,0,0,0,0,2019-12-03T19:17:24.295Z,5da7231a79a2d285ded2f8a9,Day 21 - Fri 12/6,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f989,Pass Out OCP Books,https://trello.com/c/giMCQTTB/90-pass-out-ocp-books,,In Class (blue),,,0,,0,0,0,0,2019-12-09T23:26:05.565Z,5da7231a79a2d285ded2f8a9,Day 21 - Fri 12/6,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2fa0f,Grade Blackjack,https://trello.com/c/HmhrCkEU/157-grade-blackjack,,"Grade (blue), Paul (red), Staff (pink)",,,0,,0,0,0,0,2019-11-06T19:12:57.361Z,5da7231a79a2d285ded2f8ab,Day 22 - Mon 12/9,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f973,Present Blackjack (1:00),https://trello.com/c/roX0CWM8/79-present-blackjack-100,,In Class (blue),,,0,,0,0,0,0,2019-12-09T15:43:23.962Z,5da7231a79a2d285ded2f8ab,Day 22 - Mon 12/9,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2fa41,finish Presidents InnerClass (2:00),https://trello.com/c/a7IbNZGa/182-finish-presidents-innerclass-200,,"Pair (lime), SKIP (black)",,,0,,0,0,0,0,2019-11-21T01:27:01.931Z,5da7231a79a2d285ded2f8ab,Day 22 - Mon 12/9,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f981,Presidents Review + Presidents Filtering (0:20),https://trello.com/c/G7CEBrVn/86-presidents-review-presidents-filtering-020,,"In Class (blue), Jeremy (purple)",,,0,,0,0,0,0,2019-12-05T18:42:35.155Z,5da7231a79a2d285ded2f8ab,Day 22 - Mon 12/9,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f979,Lambdas (1:00),https://trello.com/c/kiP3La4c/82-lambdas-100,"* Anonymous classes -> Lambdas
+
+* Lambda syntax
+
+* Functional Interface",Jeremy (purple),,,0,,0,0,0,0,2019-12-04T15:10:20.582Z,5da7231a79a2d285ded2f8ab,Day 22 - Mon 12/9,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f9b3,Order Enthuware,https://trello.com/c/ycsdycEg/111-order-enthuware,,Rob (green),,,0,,0,0,0,0,2019-10-16T14:03:10.911Z,5da7231a79a2d285ded2f8ab,Day 22 - Mon 12/9,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f97d,Presidents Lambdas (1:30),https://trello.com/c/x6mlS9eC/84-presidents-lambdas-130,,"Afternoon (lime), Jeremy (purple), Pair (lime)",,,0,,0,0,0,0,2019-12-04T15:10:15.397Z,5da7231a79a2d285ded2f8ab,Day 22 - Mon 12/9,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f9bb,Presidents Lambdas Review,https://trello.com/c/drVofFZQ/115-presidents-lambdas-review,,"In Class (blue), Jeremy (purple)",,,0,,0,0,0,0,2019-12-04T15:10:02.353Z,5da7231a79a2d285ded2f8ab,Day 22 - Mon 12/9,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f9bf,Lambdas II (1:00),https://trello.com/c/oCqe7cQD/117-lambdas-ii-100,"* Functional Interfaces
+
+* `Predicate` 
+
+* other `java.function` stuff
+
+* Demonstrate replacing `PresidentMatcher` with `Function`",Jeremy (purple),,,0,,0,0,0,0,2019-12-04T15:09:56.369Z,5da7231a79a2d285ded2f8ab,Day 22 - Mon 12/9,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f983,JUnit5 (_:__),https://trello.com/c/ZDG8UUbT/87-junit5,,Denise (orange),,,0,,0,0,0,0,2019-12-09T23:25:44.690Z,5da7231a79a2d285ded2f8ab,Day 22 - Mon 12/9,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2fa21,OCA Self Study (OCA book),https://trello.com/c/MKkvnSbN/166-oca-self-study-oca-book,,,,,0,,0,0,0,0,2019-10-16T14:03:08.282Z,5da7231a79a2d285ded2f8ab,Day 22 - Mon 12/9,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f97b,Lambdas Exercises (1:30),https://trello.com/c/tbZu07ES/83-lambdas-exercises-130,,"In Class (blue), Jeremy (purple)",,,0,,0,0,0,0,2019-12-04T15:10:37.034Z,5da7231a79a2d285ded2f8ac,Day 23 - Tue 12/10,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f98b,Lambdas Exercises Review,https://trello.com/c/jhmueewt/91-lambdas-exercises-review,Create JUnit5 test case to test the methods in the exercises.,"In Class (blue), Jeremy (purple)",,,0,,0,0,0,0,2019-12-04T15:10:31.839Z,5da7231a79a2d285ded2f8ac,Day 23 - Tue 12/10,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2fa23,OCP References and Binding Revisited,https://trello.com/c/nSyAqudk/167-ocp-references-and-binding-revisited,,Denise (orange),,,0,,0,0,0,0,2019-10-16T14:03:08.261Z,5da7231a79a2d285ded2f8ac,Day 23 - Tue 12/10,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f993,Polymorphism Revisited,https://trello.com/c/KzqRxKal/95-polymorphism-revisited,,Denise (orange),,,0,,0,0,0,0,2019-10-16T14:03:11.556Z,5da7231a79a2d285ded2f8ac,Day 23 - Tue 12/10,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f995,Object Casting Revisited,https://trello.com/c/MWc19TBn/96-object-casting-revisited,,Denise (orange),,,0,,0,0,0,0,2019-10-16T14:03:11.521Z,5da7231a79a2d285ded2f8ac,Day 23 - Tue 12/10,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f97f,Install Enthuware (0:30),https://trello.com/c/IM8d08NU/85-install-enthuware-030,"1. Register student emails.
+
+2. Walk through download and install
+
+3. Go to Oracle exam page, review exam topics: https://education.oracle.com/pls/web_prod-plq-dad/db_pages.getpage?page_id=5001&get_params=p_exam_id:1Z0-808#exam-details","In Class (blue), Rob (green)",,,0,,0,0,0,0,2019-10-16T14:03:12.020Z,5da7231a79a2d285ded2f8ac,Day 23 - Tue 12/10,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f9c1,Study Techniques (0:30),https://trello.com/c/O5LHKp6N/118-study-techniques-030,This is usually showing Shelby's study guide.,Rob (green),,,0,,0,0,0,0,2019-10-16T14:03:10.482Z,5da7231a79a2d285ded2f8ac,Day 23 - Tue 12/10,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f98d,Mock 1,https://trello.com/c/FWNI9O56/92-mock-1,,Denise (orange),,,0,,0,0,0,0,2019-10-16T14:03:11.706Z,5da7231a79a2d285ded2f8ad,Day 24 - Wed 12/11,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f98f,Mock 1 Pair Review,https://trello.com/c/iogeFPDb/93-mock-1-pair-review,,Denise (orange),,,0,,0,0,0,0,2019-10-16T14:03:11.648Z,5da7231a79a2d285ded2f8ad,Day 24 - Wed 12/11,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f9bd,OCP Reading Assignment,https://trello.com/c/a1NybOlB/116-ocp-reading-assignment,,,,,0,,0,0,0,0,2019-10-16T14:03:10.648Z,5da7231a79a2d285ded2f8ad,Day 24 - Wed 12/11,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f991,Mock 1 In-Class Review,https://trello.com/c/Hw17Lwqb/94-mock-1-in-class-review,,Denise (orange),,,0,,0,0,0,0,2019-10-16T14:03:11.592Z,5da7231a79a2d285ded2f8ae,Day 25 - Thu 12/12,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f99f,Exceptions Revisited,https://trello.com/c/onDIiX7o/101-exceptions-revisited,,Jeremy (purple),,,0,,0,0,0,0,2019-10-16T14:03:11.314Z,5da7231a79a2d285ded2f8ae,Day 25 - Thu 12/12,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2fa25,OCP Exception Questions Review,https://trello.com/c/6VnElCNR/168-ocp-exception-questions-review,,Jeremy (purple),,,0,,0,0,0,0,2019-10-16T14:03:08.234Z,5da7231a79a2d285ded2f8ae,Day 25 - Thu 12/12,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f909,AdvancedLooping (0:45),https://trello.com/c/rlSXbw5q/26-advancedlooping-045,Labels,Jeremy (purple),,,0,,0,0,0,0,2019-12-11T15:38:50.393Z,5da7231a79a2d285ded2f8ae,Day 25 - Thu 12/12,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2fa27,Independent Study / Presentation Preparation,https://trello.com/c/3RvQfjy3/169-independent-study-presentation-preparation,"Some may team together, like Methods and Override .v. Overload
+
+Additional topic possibilities
+    Comparator / compare() 
+       also used as Lambda intro
+   Natural Sort Order (Comparable)
+  
+   ",Denise (orange),,,0,,0,0,0,0,2019-10-16T14:03:08.213Z,5da7231a79a2d285ded2f8ae,Day 25 - Thu 12/12,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f997,Mock 2,https://trello.com/c/lE1JQ2KG/97-mock-2,,Jeremy (purple),,,0,,0,0,0,0,2019-12-10T17:53:24.904Z,5da7231a79a2d285ded2f8af,Day 26 - Fri 12/13,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f99d,Mock 2 Pair Review,https://trello.com/c/tx5IRo6P/100-mock-2-pair-review,,Jeremy (purple),,,0,,0,0,0,0,2019-12-10T17:53:30.539Z,5da7231a79a2d285ded2f8af,Day 26 - Fri 12/13,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f9cd,Mock 2 In-Class Review,https://trello.com/c/YPhKmRzU/124-mock-2-in-class-review,,Jeremy (purple),,,0,,0,0,0,0,2019-12-10T17:53:48.060Z,5da7231a79a2d285ded2f8b0,Day 27 - Mon 12/16,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f9fd,AdvancedExpressions,https://trello.com/c/36so3B9A/148-advancedexpressions,,Jeremy (purple),,,0,,0,0,0,0,2019-10-16T14:03:09.029Z,5da7231a79a2d285ded2f8b0,Day 27 - Mon 12/16,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f927,Subclass Initialization Hierarchy (0:45),https://trello.com/c/gAWKUD53/41-subclass-initialization-hierarchy-045,,Denise (orange),,,0,,0,0,0,0,2019-12-16T20:03:11.892Z,5da7231a79a2d285ded2f8b0,Day 27 - Mon 12/16,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2fa05,Presentation Preparation,https://trello.com/c/GdF6wYjC/152-presentation-preparation,,Jeremy (purple),,,0,,0,0,0,0,2019-10-16T14:03:08.775Z,5da7231a79a2d285ded2f8b0,Day 27 - Mon 12/16,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f9b1,Independent Study,https://trello.com/c/b8bwdsjQ/110-independent-study,,,,,0,,0,0,0,0,2019-10-16T14:03:10.948Z,5da7231a79a2d285ded2f8b0,Day 27 - Mon 12/16,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f9f7,Student Presentations,https://trello.com/c/slDWkGb2/145-student-presentations,,Denise (orange),,,0,,0,0,0,0,2019-10-16T14:03:09.149Z,5da7231a79a2d285ded2f8b1,Day 28 - Tue 12/17,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f9a3,Mock 3 (1:30 - 4pm),https://trello.com/c/O8JhryNd/103-mock-3-130-4pm,,Denise (orange),,,0,,0,0,0,0,2019-12-17T22:52:57.792Z,5da7231a79a2d285ded2f8b1,Day 28 - Tue 12/17,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f999,Mock 3 Pair Review,https://trello.com/c/8OaK6qsG/98-mock-3-pair-review,,Denise (orange),,,0,,0,0,0,0,2019-12-16T23:27:32.827Z,5da7231a79a2d285ded2f8b1,Day 28 - Tue 12/17,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5df95c01f4c54d62d4ce9002,Mock 3 Pair Review,https://trello.com/c/3fY5maGK/208-mock-3-pair-review,,Jeremy (purple),,,0,,0,0,0,0,2019-12-17T22:54:28.429Z,5da7231a79a2d285ded2f8b2,Day 29 - Wed 12/18,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f9a5,Mock 3 In-Class Review,https://trello.com/c/fYuvkDQt/104-mock-3-in-class-review,,Jeremy (purple),,,0,,0,0,0,0,2019-10-16T14:03:11.243Z,5da7231a79a2d285ded2f8b2,Day 29 - Wed 12/18,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f9a1,Interfaces Revisited,https://trello.com/c/MvJp6aMx/102-interfaces-revisited,,Jeremy (purple),,,0,,0,0,0,0,2019-10-16T14:03:11.286Z,5da7231a79a2d285ded2f8b2,Day 29 - Wed 12/18,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f9a7,OCP Exam Recommendations,https://trello.com/c/3R0X2QXa/105-ocp-exam-recommendations,,,,,0,,0,0,0,0,2019-10-16T14:03:11.206Z,5da7231a79a2d285ded2f8b2,Day 29 - Wed 12/18,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f9ab,Mock 4,https://trello.com/c/FhMZ6ihU/107-mock-4,,Rob (green),,,0,,0,0,0,0,2019-10-16T14:03:11.110Z,5da7231a79a2d285ded2f8b3,Day 30 - Thu 12/19,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f9ad,Mock 4 Pair Review,https://trello.com/c/fI7EbwtJ/108-mock-4-pair-review,,,,,0,,0,0,0,0,2019-10-16T14:03:11.053Z,5da7231a79a2d285ded2f8b3,Day 30 - Thu 12/19,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f9af,Mock 4 In-Class Review,https://trello.com/c/aZxanDR6/109-mock-4-in-class-review,,Rob (green),,,0,,0,0,0,0,2019-10-16T14:03:10.990Z,5da7231a79a2d285ded2f8b3,Day 30 - Thu 12/19,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5da7231a79a2d285ded2f9a9,Independent Study,https://trello.com/c/cpcu1eZ7/106-independent-study,,,,,0,,0,0,0,0,2019-10-16T14:03:11.170Z,5da7231a79a2d285ded2f8b3,Day 30 - Thu 12/19,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5df813eac79c8b466c20a31c,OCP/Final Day Mock,https://trello.com/c/smbfliKS/203-ocp-final-day-mock,,"Denise (orange), In Class (blue)",,,0,,0,0,0,0,2019-12-18T15:43:10.546Z,5df813b61df5c35a00d973bc,UNIT2 DAY1 - Friday 12/20,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5df81405869af789c73d26c6,Web Intro,https://trello.com/c/t2FjtHF4/204-web-intro,,Paul (red),,,0,,0,0,0,0,2019-12-20T17:14:04.190Z,5df813b61df5c35a00d973bc,UNIT2 DAY1 - Friday 12/20,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5df81680cbf660552b82101c,HTML Basics,https://trello.com/c/7IHNAaqC/205-html-basics,,Paul (red),,,0,,0,0,0,0,2019-12-18T15:41:12.392Z,5df813b61df5c35a00d973bc,UNIT2 DAY1 - Friday 12/20,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5df816a015aac671c3b0e096,HTML Self-Study,https://trello.com/c/8ocpaSqI/207-html-self-study,,Paul (red),,,0,,0,0,0,0,2019-12-18T15:41:17.473Z,5df813b61df5c35a00d973bc,UNIT2 DAY1 - Friday 12/20,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
+5df8168527f78c31e6047eb9,HTML Assessment,https://trello.com/c/VvHYgZOK/206-html-assessment,,Paul (red),,,0,,0,0,0,0,2019-12-18T15:41:09.663Z,5df813b61df5c35a00d973bc,UNIT2 DAY1 - Friday 12/20,5da7231a79a2d285ded2f895,Unit1Schedule - SD24,false
