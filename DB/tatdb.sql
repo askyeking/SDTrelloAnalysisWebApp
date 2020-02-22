@@ -26,6 +26,8 @@ CREATE TABLE IF NOT EXISTS `trello_csv_file` (
   `path_and_file_name` VARCHAR(100) NULL,
   `start_date` DATE NULL,
   `end_date` DATE NULL,
+  `start_date_string` VARCHAR(45) NULL,
+  `end_date_string` VARCHAR(45) NULL,
   PRIMARY KEY (`id`))
 ENGINE = InnoDB;
 
@@ -45,6 +47,7 @@ CREATE TABLE IF NOT EXISTS `topic` (
   `length_in_min` INT NULL,
   `trello_csv_file_id` INT NOT NULL,
   `date_lectured` DATE NULL,
+  `date_lectured_string` VARCHAR(45) NULL,
   PRIMARY KEY (`id`, `trello_csv_file_id`),
   INDEX `fk_topic_trello_csv_file1_idx` (`trello_csv_file_id` ASC),
   CONSTRAINT `fk_topic_trello_csv_file1`
@@ -107,7 +110,7 @@ SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
 -- -----------------------------------------------------
 START TRANSACTION;
 USE `tatdb`;
-INSERT INTO `trello_csv_file` (`id`, `file_name`, `path_and_file_name`, `start_date`, `end_date`) VALUES (1, 'fileName', 'pathAndFileName', '2024-12-01 ', '2024-12-31');
+INSERT INTO `trello_csv_file` (`id`, `file_name`, `path_and_file_name`, `start_date`, `end_date`, `start_date_string`, `end_date_string`) VALUES (1, 'fileName', 'pathAndFileName', '2024-12-01 ', '2024-12-31', NULL, NULL);
 
 COMMIT;
 
@@ -117,7 +120,7 @@ COMMIT;
 -- -----------------------------------------------------
 START TRANSACTION;
 USE `tatdb`;
-INSERT INTO `topic` (`id`, `name`, `description`, `day_of_program`, `cohort`, `unit`, `length_in_min`, `trello_csv_file_id`, `date_lectured`) VALUES (1, 'topicName', 'topicDescription', '12', '23', '1', 60, 1, '2019-11-18');
+INSERT INTO `topic` (`id`, `name`, `description`, `day_of_program`, `cohort`, `unit`, `length_in_min`, `trello_csv_file_id`, `date_lectured`, `date_lectured_string`) VALUES (1, 'topicName', 'topicDescription', '12', '23', '1', 60, 1, '2019-11-18', NULL);
 
 COMMIT;
 
