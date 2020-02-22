@@ -6,4 +6,6 @@ import com.skilldistillery.tat.entities.Instructor;
 
 public interface InstructorRepository extends JpaRepository<Instructor, Integer> {
 
+	Instructor findByName(String name);
+	Instructor findByActive(boolean isActive);
 }
