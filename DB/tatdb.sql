@@ -26,8 +26,6 @@ CREATE TABLE IF NOT EXISTS `trello_csv_file` (
   `path_and_file_name` VARCHAR(100) NULL,
   `start_date` DATE NULL,
   `end_date` DATE NULL,
-  `start_date_string` VARCHAR(45) NULL,
-  `end_date_string` VARCHAR(45) NULL,
   PRIMARY KEY (`id`))
 ENGINE = InnoDB;
 
@@ -39,7 +37,7 @@ DROP TABLE IF EXISTS `topic` ;
 
 CREATE TABLE IF NOT EXISTS `topic` (
   `id` INT NOT NULL AUTO_INCREMENT,
-  `name` VARCHAR(45) NOT NULL,
+  `name` VARCHAR(500) NOT NULL,
   `description` TEXT(10000) NULL,
   `day_of_program` VARCHAR(45) NULL,
   `cohort` VARCHAR(45) NULL,
@@ -47,7 +45,6 @@ CREATE TABLE IF NOT EXISTS `topic` (
   `length_in_min` INT NULL,
   `trello_csv_file_id` INT NOT NULL,
   `date_lectured` DATE NULL,
-  `date_lectured_string` VARCHAR(45) NULL,
   PRIMARY KEY (`id`, `trello_csv_file_id`),
   INDEX `fk_topic_trello_csv_file1_idx` (`trello_csv_file_id` ASC),
   CONSTRAINT `fk_topic_trello_csv_file1`
@@ -99,7 +96,6 @@ DROP USER IF EXISTS sdtatuser@localhost;
 SET SQL_MODE='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION';
 CREATE USER 'sdtatuser'@'localhost' IDENTIFIED BY 'sdtatuser';
 
-GRANT SELECT, INSERT, TRIGGER, UPDATE, DELETE ON TABLE * TO 'sdtatuser'@'localhost';
 
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
@@ -110,7 +106,7 @@ SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
 -- -----------------------------------------------------
 START TRANSACTION;
 USE `tatdb`;
-INSERT INTO `trello_csv_file` (`id`, `file_name`, `path_and_file_name`, `start_date`, `end_date`, `start_date_string`, `end_date_string`) VALUES (1, 'fileName', 'pathAndFileName', '2024-12-01 ', '2024-12-31', NULL, NULL);
+INSERT INTO `trello_csv_file` (`id`, `file_name`, `path_and_file_name`, `start_date`, `end_date`) VALUES (1, 'fileName', 'pathAndFileName', '2024-12-01 ', '2024-12-31');
 
 COMMIT;
 
@@ -120,7 +116,7 @@ COMMIT;
 -- -----------------------------------------------------
 START TRANSACTION;
 USE `tatdb`;
-INSERT INTO `topic` (`id`, `name`, `description`, `day_of_program`, `cohort`, `unit`, `length_in_min`, `trello_csv_file_id`, `date_lectured`, `date_lectured_string`) VALUES (1, 'topicName', 'topicDescription', '12', '23', '1', 60, 1, '2019-11-18', NULL);
+INSERT INTO `topic` (`id`, `name`, `description`, `day_of_program`, `cohort`, `unit`, `length_in_min`, `trello_csv_file_id`, `date_lectured`) VALUES (1, 'topicName', 'topicDescription', '12', '23', '1', 60, 1, '2019-11-18');
 
 COMMIT;
 
