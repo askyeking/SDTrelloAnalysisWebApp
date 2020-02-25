@@ -36,9 +36,14 @@ public class InstructorController {
 		return "pong";
 	}
 	
-	@GetMapping("index")
-	public List<Instructor> index() {
-		return instructorService.index();
+	@GetMapping("findAll")
+	public List<Instructor> findAll() {
+		return instructorService.findAll();
+	}
+	
+	@GetMapping("findAllByActive")
+	public List<Instructor> findAllByActive(boolean isActive){
+		return instructorService.findByActive(isActive);
 	}
 	
 	
