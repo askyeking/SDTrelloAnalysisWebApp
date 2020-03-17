@@ -66,8 +66,9 @@ DROP TABLE IF EXISTS `instructor` ;
 CREATE TABLE IF NOT EXISTS `instructor` (
   `id` INT NOT NULL AUTO_INCREMENT,
   `name` VARCHAR(45) NULL,
-  `active` VARCHAR(45) NULL,
-  PRIMARY KEY (`id`))
+  `active` TINYINT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE INDEX `name_UNIQUE` (`name` ASC))
 ENGINE = InnoDB;
 
 
@@ -130,7 +131,7 @@ COMMIT;
 -- -----------------------------------------------------
 START TRANSACTION;
 USE `tatdb`;
-INSERT INTO `instructor` (`id`, `name`, `active`) VALUES (1, 'testInstructor', '1');
+INSERT INTO `instructor` (`id`, `name`, `active`) VALUES (1, 'testInstructor', 1);
 
 COMMIT;
 
